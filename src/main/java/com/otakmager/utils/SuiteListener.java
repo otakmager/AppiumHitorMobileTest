@@ -1,5 +1,6 @@
 package com.otakmager.utils;
 
+import com.otakmager.base.BaseTest;
 import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -23,7 +24,7 @@ public class SuiteListener implements ITestListener, IAnnotationTransformer {
         String methodName = result.getMethod().getMethodName();
         String fileName = System.getProperty("user.dir") + File.separator + "screenshots" + File.separator
                 + result.getMethod().getMethodName();
-        File file = DriverFactory.getDriver().getScreenshotAs(OutputType.FILE);
+        File file = BaseTest.driver.getScreenshotAs(OutputType.FILE);
 
         try {
             FileUtils.copyFile(file, new File(fileName + ".png"));

@@ -1,0 +1,8 @@
+# config.properties.example
+
+platformName=Android
+automationName=UiAutomator2
+deviceName=
+platformVersion=
+app=src/test/resources/hitor-v1.0.0-release.apk
+newCommandTimeout=60

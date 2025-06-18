@@ -1,3 +1,9 @@
+# Ignore all config.properties files in any folder
+**/config.properties
+
+# But keep example files
+!**/config.properties.example
+
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/

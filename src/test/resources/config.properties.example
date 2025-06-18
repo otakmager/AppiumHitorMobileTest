@@ -1,8 +1,9 @@
 # config.properties.example
 
-platformName=Android
+appiumServerURL=http://127.0.0.1:4723
 automationName=UiAutomator2
 deviceName=
+platformName=Android
 platformVersion=
 app=src/test/resources/hitor-v1.0.0-release.apk
 newCommandTimeout=60

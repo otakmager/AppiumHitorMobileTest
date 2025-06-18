@@ -1,6 +1,5 @@
 package com.otakmager.utils;
 
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -30,5 +29,9 @@ public class ConfigReader {
 
     public static String getProperty(String key) {
         return props.getProperty(key);
+    }
+
+    public static String getProperty(String key, String defaultValue) {
+        return props.getProperty(key, defaultValue);
     }
 }

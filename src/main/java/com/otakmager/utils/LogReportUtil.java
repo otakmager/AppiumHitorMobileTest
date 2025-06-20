@@ -15,9 +15,7 @@ public interface LogReportUtil {
         ReportManager.reportFailure(message);
     }
 
-    static void logTestStart(Logger logger, ITestResult result) {
-        String methodName = result.getMethod().getMethodName();
-        String className = result.getTestClass().getName();
+    static void logTestStart(Logger logger, String methodName, String className) {
         logger.info("\n\n================== START TEST: {}.{} ==================\n", className, methodName);
     }
 

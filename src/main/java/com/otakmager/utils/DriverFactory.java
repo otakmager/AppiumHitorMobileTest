@@ -12,7 +12,8 @@ public class DriverFactory {
     private static final Logger logger = LogManager.getLogger(DriverFactory.class);
     private static AndroidDriver driver;
 
-    private static void initDriver() {
+    private static void initDriver(Boolean useApkFile) {
+        logger.info("Starting AndroidDriver initialization with useApkFile: {}", useApkFile);
         try {
             URL serverUrl = new URL(ConfigReader.getProperty("appiumServerURL"));
             UiAutomator2Options options = new UiAutomator2Options()
@@ -20,10 +21,20 @@ public class DriverFactory {
                     .setPlatformVersion(ConfigReader.getProperty("platformVersion"))
                     .setDeviceName(ConfigReader.getProperty("deviceName"))
                     .setAutomationName(ConfigReader.getProperty("automationName"))
-                    .setApp(getAbsoluteAppPath())
                     .setNewCommandTimeout(Duration.ofSeconds(
                             Integer.parseInt(ConfigReader.getProperty("newCommandTimeout", "60")
                             )));
+
+            if (useApkFile) {
+                options.setApp(getAbsoluteAppPath());
+                logger.info("Using APK file: {}", getAbsoluteAppPath());
+            } else {
+                options.setAppPackage(ConfigReader.getProperty("appPackage"))
+                        .setAppActivity(ConfigReader.getProperty("appActivity"));
+                logger.info("Using App Package: {}, App Activity: {}",
+                        ConfigReader.getProperty("appPackage"),
+                        ConfigReader.getProperty("appActivity"));
+            }
 
             driver = new AndroidDriver(serverUrl, options);
             logger.info("AndroidDriver initialized successfully");
@@ -33,9 +44,9 @@ public class DriverFactory {
         }
     }
 
-    public static AndroidDriver getDriver() {
+    public static AndroidDriver getDriver(Boolean useApkFile) {
         if (driver == null) {
-            initDriver();
+            initDriver(useApkFile);
         }
         return driver;
     }

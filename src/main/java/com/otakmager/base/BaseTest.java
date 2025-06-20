@@ -17,8 +17,10 @@ public class BaseTest {
     }
 
     @BeforeMethod
-    public void setUpTest(Method method) {
-        driver = DriverFactory.getDriver();
+    @Parameters("useApkFile")
+    public void setUpTest(Method method, @Optional("true") String useApkFileParam) {
+        boolean useApkFile = Boolean.parseBoolean(useApkFileParam);
+        driver = DriverFactory.getDriver(useApkFile);
         ReportManager.createTest(method.getName());
         ReportManager.reportInfo("Test started: " + method.getName());
     }

@@ -6,4 +6,6 @@ deviceName=
 platformName=Android
 platformVersion=
 app=src/test/resources/hitor-v1.0.0-release.apk
+appPackage=com.otakmager.traffic_records
+appActivity=com.otakmager.traffic_records.MainActivity
 newCommandTimeout=60

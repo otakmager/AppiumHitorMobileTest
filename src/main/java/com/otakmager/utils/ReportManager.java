@@ -25,7 +25,7 @@ public class ReportManager {
 
             sparkReporter.config().setTheme(Theme.DARK);
             sparkReporter.config().setDocumentTitle("Automation Test Report");
-            sparkReporter.config().setReportName("Unit Converter Tests - https://www.digitaldutch.com/unitconverter/");
+            sparkReporter.config().setReportName("Appium Mobile Tests - Hitor");
 
             reports.attachReporter(sparkReporter);
         }

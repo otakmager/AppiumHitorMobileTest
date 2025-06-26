@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="com.otakmager.utils.SuiteListener"/>
+    </listeners>
+    <test verbose="1" name="screen/HomeTest">
+        <parameter name="useApkFile" value="true"/>
+        <classes>
+            <class name="com.otakmager.testCases.screen.HomeTest"/>
+        </classes>
+    </test>
+</suite>

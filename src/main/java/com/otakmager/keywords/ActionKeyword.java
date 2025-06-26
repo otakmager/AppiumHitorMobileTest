@@ -56,7 +56,7 @@ public class ActionKeyword {
     public String getText(ElementInfo elementInfo) {
         String message;
         try {
-            String text = BaseTest.driver.findElement(elementInfo.locator()).getText();
+            String text = BaseTest.driver.findElement(elementInfo.locator()).getAttribute("content-desc");
             message = String.format("Retrieved text '%s' from element: %s", text, elementInfo.name());
             LogReportUtil.logInfo(logger, message);
             return text;

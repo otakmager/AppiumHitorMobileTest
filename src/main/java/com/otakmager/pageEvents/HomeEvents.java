@@ -15,7 +15,7 @@ public class HomeEvents {
     }
 
     public void verifyAppDescription() {
-        String expectedDesc = "Kendaraan lewat? Kita Catat!";
+        String expectedDesc = "Kendaraan lewat?\nKita Catat!";
         String actualDesc = action.getText(HomeObject.appDesc);
         validation.assertTextEquals(actualDesc, expectedDesc);
     }

@@ -14,7 +14,7 @@ public class PilihKelompokEvents {
         validation.assertTextEquals(actualTitle, expectedTitle);
     }
 
-    public void verifyAppBarBackButton() {
+    public void verifyAppBarBackButtonVisible() {
         validation.assertElementVisible(PilihKelompokObject.appBarBackButton);
     }
 

@@ -20,11 +20,11 @@ public class AddEditEvents {
         validation.assertTextEquals(actualTitle, expectedTitle);
     }
 
-    public void verifyAppBarBackButton() {
+    public void verifyAppBarBackButtonVisible() {
         validation.assertElementVisible(AddEditObject.appBarBackButton);
     }
 
-    public void verifyAppBarSaveButton() {
+    public void verifyAppBarSaveButtonVisible() {
         validation.assertElementVisible(AddEditObject.appBarSaveButton);
     }
 

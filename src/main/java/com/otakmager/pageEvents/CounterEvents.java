@@ -12,11 +12,11 @@ public class CounterEvents {
         validation.assertElementVisible(CounterObject.appBarBackButton);
     }
 
-    public void verifyAppBarResetButton() {
+    public void verifyAppBarResetButtonVisible() {
         validation.assertElementVisible(CounterObject.appBarResetButton);
     }
 
-    public void verifyAppBarFinishButton() {
+    public void verifyAppBarFinishButtonVisible() {
         validation.assertElementVisible(CounterObject.appBarFinishButton);
     }
 

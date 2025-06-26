@@ -1,0 +1,24 @@
+2025-06-26 10:28:45 [main] INFO  com.otakmager.utils.DriverFactory - Starting AndroidDriver initialization with useApkFile: true
+2025-06-26 10:28:45 [main] INFO  com.otakmager.utils.ConfigReader - Loaded config.properties successfully
+2025-06-26 10:28:46 [main] INFO  com.otakmager.utils.DriverFactory - Using APK file: E:\Project\QA_quality_assurance\appium-project\AppiumHitorMobileTest/src/test/resources/hitor-v1.0.0-release.apk
+2025-06-26 10:29:03 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver initialized successfully
+2025-06-26 10:29:03 [main] INFO  com.otakmager.base.BaseTest - 
+
+================== START TEST: HomeTest.homeScreenShouldLoadSuccessfully ==================
+
+2025-06-26 10:29:04 [main] INFO  com.otakmager.keywords.ActionKeyword - Retrieved text 'Hitor' from element: App Title
+2025-06-26 10:29:04 [main] INFO  com.otakmager.keywords.ValidationKeyword - Validation passed: expected 'Hitor' and found 'Hitor'
+2025-06-26 10:29:04 [main] INFO  com.otakmager.keywords.ActionKeyword - Retrieved text 'Kendaraan lewat?
+Kita Catat!' from element: App Desc
+2025-06-26 10:29:04 [main] INFO  com.otakmager.keywords.ValidationKeyword - Validation passed: expected 'Kendaraan lewat?
+Kita Catat!' and found 'Kendaraan lewat?
+Kita Catat!'
+2025-06-26 10:29:04 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu Pengamatan
+2025-06-26 10:29:04 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu Riwayat
+2025-06-26 10:29:04 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu Pengaturan
+2025-06-26 10:29:04 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu Dukungan
+2025-06-26 10:29:05 [main] INFO  com.otakmager.base.BaseTest - TEST RESULT: com.otakmager.testCases.screen.HomeTest.homeScreenShouldLoadSuccessfully PASSED
+2025-06-26 10:29:05 [main] INFO  com.otakmager.base.BaseTest - 
+================== END TEST: com.otakmager.testCases.screen.HomeTest.homeScreenShouldLoadSuccessfully ==================
+
+2025-06-26 10:29:05 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver quit successfully

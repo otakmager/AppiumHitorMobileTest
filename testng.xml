@@ -8,6 +8,7 @@
         <parameter name="useApkFile" value="true"/>
         <classes>
             <class name="com.otakmager.testCases.screen.HomeTest"/>
+            <class name="com.otakmager.testCases.screen.PilihJalanTest"/>
         </classes>
     </test>
 </suite>

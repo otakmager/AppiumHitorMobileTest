@@ -711,3 +711,130 @@ Kita Catat!'
 ================== END TEST: com.otakmager.testCases.screen.PilihKelompokTest.pilihKelompokScreenShouldLoadAfterChoosingJalanTol ==================
 
 2025-06-26 12:14:52 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver quit successfully
+2025-06-28 21:44:37 [main] INFO  com.otakmager.utils.DriverFactory - Starting AndroidDriver initialization with useApkFile: true
+2025-06-28 21:44:37 [main] INFO  com.otakmager.utils.ConfigReader - Loaded config.properties successfully
+2025-06-28 21:44:38 [main] INFO  com.otakmager.utils.DriverFactory - Using APK file: E:\Project\QA_quality_assurance\appium-project\AppiumHitorMobileTest/src/test/resources/hitor-v1.0.0-release.apk
+2025-06-28 21:45:03 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver initialized successfully
+2025-06-28 21:45:03 [main] INFO  com.otakmager.base.BaseTest - 
+
+================== START TEST: HomeTest.homeScreenShouldLoadSuccessfully ==================
+
+2025-06-28 21:45:04 [main] INFO  com.otakmager.keywords.ActionKeyword - Retrieved text 'Hitor' from element: App Title
+2025-06-28 21:45:04 [main] INFO  com.otakmager.keywords.ValidationKeyword - Validation passed: expected 'Hitor' and found 'Hitor'
+2025-06-28 21:45:04 [main] INFO  com.otakmager.keywords.ActionKeyword - Retrieved text 'Kendaraan lewat?
+Kita Catat!' from element: App Desc
+2025-06-28 21:45:04 [main] INFO  com.otakmager.keywords.ValidationKeyword - Validation passed: expected 'Kendaraan lewat?
+Kita Catat!' and found 'Kendaraan lewat?
+Kita Catat!'
+2025-06-28 21:45:05 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu Pengamatan
+2025-06-28 21:45:05 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu Riwayat
+2025-06-28 21:45:05 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu Pengaturan
+2025-06-28 21:45:06 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu Dukungan
+2025-06-28 21:45:06 [main] INFO  com.otakmager.base.BaseTest - TEST RESULT: com.otakmager.testCases.screen.HomeTest.homeScreenShouldLoadSuccessfully PASSED
+2025-06-28 21:45:06 [main] INFO  com.otakmager.base.BaseTest - 
+================== END TEST: com.otakmager.testCases.screen.HomeTest.homeScreenShouldLoadSuccessfully ==================
+
+2025-06-28 21:45:07 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver quit successfully
+2025-06-28 21:45:07 [main] INFO  com.otakmager.utils.DriverFactory - Starting AndroidDriver initialization with useApkFile: true
+2025-06-28 21:45:07 [main] INFO  com.otakmager.utils.DriverFactory - Using APK file: E:\Project\QA_quality_assurance\appium-project\AppiumHitorMobileTest/src/test/resources/hitor-v1.0.0-release.apk
+2025-06-28 21:45:15 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver initialized successfully
+2025-06-28 21:45:15 [main] INFO  com.otakmager.base.BaseTest - 
+
+================== START TEST: PilihJalanTest.pilihJalanScreenShouldLoadSuccessfully ==================
+
+2025-06-28 21:45:15 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu Pengamatan
+2025-06-28 21:45:16 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Menu Pengamatan
+2025-06-28 21:45:16 [main] INFO  com.otakmager.keywords.ActionKeyword - Retrieved text 'Pilih Jenis Jalan' from element: App Bar Title
+2025-06-28 21:45:16 [main] INFO  com.otakmager.keywords.ValidationKeyword - Validation passed: expected 'Pilih Jenis Jalan' and found 'Pilih Jenis Jalan'
+2025-06-28 21:45:16 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: App Bar Back Button
+2025-06-28 21:45:16 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu Jalan Raya
+2025-06-28 21:45:16 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu Jalan Tol
+2025-06-28 21:45:16 [main] INFO  com.otakmager.base.BaseTest - TEST RESULT: com.otakmager.testCases.screen.PilihJalanTest.pilihJalanScreenShouldLoadSuccessfully PASSED
+2025-06-28 21:45:16 [main] INFO  com.otakmager.base.BaseTest - 
+================== END TEST: com.otakmager.testCases.screen.PilihJalanTest.pilihJalanScreenShouldLoadSuccessfully ==================
+
+2025-06-28 21:45:18 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver quit successfully
+2025-06-28 21:45:18 [main] INFO  com.otakmager.utils.DriverFactory - Starting AndroidDriver initialization with useApkFile: true
+2025-06-28 21:45:18 [main] INFO  com.otakmager.utils.DriverFactory - Using APK file: E:\Project\QA_quality_assurance\appium-project\AppiumHitorMobileTest/src/test/resources/hitor-v1.0.0-release.apk
+2025-06-28 21:45:26 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver initialized successfully
+2025-06-28 21:45:26 [main] INFO  com.otakmager.base.BaseTest - 
+
+================== START TEST: PilihKelompokTest.pilihKelompokScreenShouldLoadAfterChoosingJalanRaya ==================
+
+2025-06-28 21:45:26 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu Pengamatan
+2025-06-28 21:45:27 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Menu Pengamatan
+2025-06-28 21:45:27 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu Jalan Raya
+2025-06-28 21:45:28 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Menu Jalan Raya
+2025-06-28 21:45:28 [main] INFO  com.otakmager.keywords.ActionKeyword - Retrieved text 'Pilih Kelompok' from element: App Bar Title
+2025-06-28 21:45:28 [main] INFO  com.otakmager.keywords.ValidationKeyword - Validation passed: expected 'Pilih Kelompok' and found 'Pilih Kelompok'
+2025-06-28 21:45:28 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: App Bar Back Button
+2025-06-28 21:45:28 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu 5 Tipe
+2025-06-28 21:45:28 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu 8 Tipe
+2025-06-28 21:45:28 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu 12 Tipe
+2025-06-28 21:45:28 [main] INFO  com.otakmager.base.BaseTest - TEST RESULT: com.otakmager.testCases.screen.PilihKelompokTest.pilihKelompokScreenShouldLoadAfterChoosingJalanRaya PASSED
+2025-06-28 21:45:28 [main] INFO  com.otakmager.base.BaseTest - 
+================== END TEST: com.otakmager.testCases.screen.PilihKelompokTest.pilihKelompokScreenShouldLoadAfterChoosingJalanRaya ==================
+
+2025-06-28 21:45:29 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver quit successfully
+2025-06-28 21:45:29 [main] INFO  com.otakmager.utils.DriverFactory - Starting AndroidDriver initialization with useApkFile: true
+2025-06-28 21:45:29 [main] INFO  com.otakmager.utils.DriverFactory - Using APK file: E:\Project\QA_quality_assurance\appium-project\AppiumHitorMobileTest/src/test/resources/hitor-v1.0.0-release.apk
+2025-06-28 21:45:36 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver initialized successfully
+2025-06-28 21:45:36 [main] INFO  com.otakmager.base.BaseTest - 
+
+================== START TEST: PilihKelompokTest.pilihKelompokScreenShouldLoadAfterChoosingJalanTol ==================
+
+2025-06-28 21:45:37 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu Pengamatan
+2025-06-28 21:45:37 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Menu Pengamatan
+2025-06-28 21:45:37 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu Jalan Tol
+2025-06-28 21:45:38 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Menu Jalan Tol
+2025-06-28 21:45:38 [main] INFO  com.otakmager.keywords.ActionKeyword - Retrieved text 'Pilih Kelompok' from element: App Bar Title
+2025-06-28 21:45:38 [main] INFO  com.otakmager.keywords.ValidationKeyword - Validation passed: expected 'Pilih Kelompok' and found 'Pilih Kelompok'
+2025-06-28 21:45:38 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: App Bar Back Button
+2025-06-28 21:45:38 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu 6 Tipe
+2025-06-28 21:45:38 [main] INFO  com.otakmager.base.BaseTest - TEST RESULT: com.otakmager.testCases.screen.PilihKelompokTest.pilihKelompokScreenShouldLoadAfterChoosingJalanTol PASSED
+2025-06-28 21:45:38 [main] INFO  com.otakmager.base.BaseTest - 
+================== END TEST: com.otakmager.testCases.screen.PilihKelompokTest.pilihKelompokScreenShouldLoadAfterChoosingJalanTol ==================
+
+2025-06-28 21:45:39 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver quit successfully
+2025-06-28 21:45:39 [main] INFO  com.otakmager.utils.DriverFactory - Starting AndroidDriver initialization with useApkFile: true
+2025-06-28 21:45:39 [main] INFO  com.otakmager.utils.DriverFactory - Using APK file: E:\Project\QA_quality_assurance\appium-project\AppiumHitorMobileTest/src/test/resources/hitor-v1.0.0-release.apk
+2025-06-28 21:45:47 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver initialized successfully
+2025-06-28 21:45:47 [main] INFO  com.otakmager.base.BaseTest - 
+
+================== START TEST: CounterTest.counterScreenShouldLoadSuccessfully ==================
+
+2025-06-28 21:45:47 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu Pengamatan
+2025-06-28 21:45:48 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Menu Pengamatan
+2025-06-28 21:45:48 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu Jalan Raya
+2025-06-28 21:45:49 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Menu Jalan Raya
+2025-06-28 21:45:49 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu 5 Tipe
+2025-06-28 21:45:59 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Menu 5 Tipe
+2025-06-28 21:46:30 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: App Bar Back Button
+2025-06-28 21:47:20 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: App Bar Reset Button
+2025-06-28 21:48:10 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: App Bar Finish Button
+2025-06-28 21:48:51 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: App Bar Reset Button
+2025-06-28 21:48:51 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Alert Dialog Title
+2025-06-28 21:48:52 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Alert Dialog Desc Reset
+2025-06-28 21:48:52 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Alert Dialog Yes Button
+2025-06-28 21:48:52 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Alert Dialog Cancel Button
+2025-06-28 21:48:53 [main] INFO  com.otakmager.keywords.ActionKeyword - Retrieved text 'Apakah Anda Yakin?' from element: Alert Dialog Title
+2025-06-28 21:48:53 [main] INFO  com.otakmager.keywords.ActionKeyword - Retrieved text 'Tindakan ini akan menghapus data yang sudah diinput dan memulai dari awal kembali.' from element: Alert Dialog Desc Reset
+2025-06-28 21:48:53 [main] INFO  com.otakmager.keywords.ValidationKeyword - Validation passed: expected 'Apakah Anda Yakin?' and found 'Apakah Anda Yakin?'
+2025-06-28 21:48:53 [main] INFO  com.otakmager.keywords.ValidationKeyword - Validation passed: expected 'Tindakan ini akan menghapus data yang sudah diinput dan memulai dari awal kembali.' and found 'Tindakan ini akan menghapus data yang sudah diinput dan memulai dari awal kembali.'
+2025-06-28 21:49:03 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Alert Dialog Cancel Button
+2025-06-28 21:49:44 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: App Bar Finish Button
+2025-06-28 21:49:44 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Alert Dialog Title
+2025-06-28 21:49:44 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Alert Dialog Desc Finish
+2025-06-28 21:49:44 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Alert Dialog Yes Button
+2025-06-28 21:49:44 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Alert Dialog Cancel Button
+2025-06-28 21:49:45 [main] INFO  com.otakmager.keywords.ActionKeyword - Retrieved text 'Apakah Anda Yakin?' from element: Alert Dialog Title
+2025-06-28 21:49:45 [main] INFO  com.otakmager.keywords.ActionKeyword - Retrieved text 'Tindakan ini akan menghentikan proses penghitungan dan mengarahkan Anda ke halaman pengeditan sebelum data sepenuhnya disimpan.' from element: Alert Dialog Desc Finish
+2025-06-28 21:49:45 [main] INFO  com.otakmager.keywords.ValidationKeyword - Validation passed: expected 'Apakah Anda Yakin?' and found 'Apakah Anda Yakin?'
+2025-06-28 21:49:45 [main] INFO  com.otakmager.keywords.ValidationKeyword - Validation passed: expected 'Tindakan ini akan menghentikan proses penghitungan dan mengarahkan Anda ke halaman pengeditan sebelum data sepenuhnya disimpan.' and found 'Tindakan ini akan menghentikan proses penghitungan dan mengarahkan Anda ke halaman pengeditan sebelum data sepenuhnya disimpan.'
+2025-06-28 21:49:55 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Alert Dialog Cancel Button
+2025-06-28 21:50:45 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Counter: Motor
+2025-06-28 21:50:45 [main] INFO  com.otakmager.base.BaseTest - TEST RESULT: com.otakmager.testCases.screen.CounterTest.counterScreenShouldLoadSuccessfully PASSED
+2025-06-28 21:50:45 [main] INFO  com.otakmager.base.BaseTest - 
+================== END TEST: com.otakmager.testCases.screen.CounterTest.counterScreenShouldLoadSuccessfully ==================
+
+2025-06-28 21:50:46 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver quit successfully

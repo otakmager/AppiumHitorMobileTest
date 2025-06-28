@@ -4,11 +4,22 @@
     <listeners>
         <listener class-name="com.otakmager.utils.SuiteListener"/>
     </listeners>
-    <test verbose="1" name="screen/HomeTest">
+<!--    <test verbose="1" name="screen/HomeTest">-->
+<!--        <parameter name="useApkFile" value="true"/>-->
+<!--        <classes>-->
+<!--            <class name="com.otakmager.testCases.screen.HomeTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test verbose="1" name="screen/PilihJalanTest">-->
+<!--        <parameter name="useApkFile" value="true"/>-->
+<!--        <classes>-->
+<!--            <class name="com.otakmager.testCases.screen.PilihJalanTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+    <test verbose="1" name="screen/PilihKelompokTest">
         <parameter name="useApkFile" value="true"/>
         <classes>
-            <class name="com.otakmager.testCases.screen.HomeTest"/>
-            <class name="com.otakmager.testCases.screen.PilihJalanTest"/>
+            <class name="com.otakmager.testCases.screen.PilihKelompokTest"/>
         </classes>
     </test>
 </suite>

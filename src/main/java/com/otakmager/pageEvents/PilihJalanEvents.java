@@ -29,4 +29,8 @@ public class PilihJalanEvents {
     public void clickMenuJalanRaya() {
         action.click(PilihJalanObject.menuJalanRaya);
     }
+
+    public void clickMenuJalanTol() {
+        action.click(PilihJalanObject.menuJalanTol);
+    }
 }

@@ -22,6 +22,10 @@ public class PilihKelompokEvents {
         validation.assertElementVisible(PilihKelompokObject.menu5Tipe);
     }
 
+    public void verifyMenu6TipeVisible() {
+        validation.assertElementVisible(PilihKelompokObject.menu6Tipe);
+    }
+
     public void verifyMenu8TipeVisible() {
         validation.assertElementVisible(PilihKelompokObject.menu8Tipe);
     }

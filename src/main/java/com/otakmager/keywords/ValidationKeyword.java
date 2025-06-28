@@ -5,6 +5,7 @@ import com.otakmager.model.ElementInfo;
 import com.otakmager.utils.LogReportUtil;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
@@ -49,6 +50,10 @@ public class ValidationKeyword {
             message = "Element NOT visible (expected visible): " + elementName;
             LogReportUtil.logFailure(logger, message);
             throw e;
+        } catch (NoSuchElementException e) {
+            message = "Element NOT FOUND: " + elementName;
+            LogReportUtil.logFailure(logger, message);
+            throw new AssertionError(message, e);
         }
     }
 
@@ -64,6 +69,10 @@ public class ValidationKeyword {
             message = "Element visible (expected not visible): " + elementName;
             LogReportUtil.logFailure(logger, message);
             throw e;
+        } catch (NoSuchElementException e) {
+            message = "Element NOT FOUND: " + elementName;
+            LogReportUtil.logFailure(logger, message);
+            throw new AssertionError(message, e);
         }
     }
 }

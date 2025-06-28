@@ -7,10 +7,11 @@
     <test verbose="1" name="screenTest">
         <parameter name="useApkFile" value="true"/>
         <classes>
-            <class name="com.otakmager.testCases.screen.HomeTest"/>
-            <class name="com.otakmager.testCases.screen.PilihJalanTest"/>
-            <class name="com.otakmager.testCases.screen.PilihKelompokTest"/>
-            <class name="com.otakmager.testCases.screen.CounterTest"/>
+<!--            <class name="com.otakmager.testCases.screen.HomeTest"/>-->
+<!--            <class name="com.otakmager.testCases.screen.PilihJalanTest"/>-->
+<!--            <class name="com.otakmager.testCases.screen.PilihKelompokTest"/>-->
+<!--            <class name="com.otakmager.testCases.screen.CounterTest"/>-->
+            <class name="com.otakmager.testCases.screen.AddDataTest"/>
         </classes>
     </test>
 </suite>

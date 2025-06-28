@@ -28,6 +28,21 @@ public class AddEditEvents {
         validation.assertElementVisible(AddEditObject.appBarSaveButton);
     }
 
+    public void verifyRingkasanCardVisible() {
+        validation.assertElementVisible(AddEditObject.resultSummary);
+    }
+
+    public void verifyFormFieldVisible() {
+        validation.assertElementVisible(AddEditObject.fieldPengamat);
+        validation.assertElementVisible(AddEditObject.fieldLokasi);
+        validation.assertElementVisible(AddEditObject.fieldKeterangan);
+    }
+
+    public void verifyDataPengamatanVisible() {
+        action.swipeUntilVisible(AddEditObject.resultSummary, AddEditObject.resultRecord, false, 2);
+        validation.assertElementVisible(AddEditObject.resultRecord);
+    }
+
     public void clickSave() {
         action.click(AddEditObject.appBarSaveButton);
     }

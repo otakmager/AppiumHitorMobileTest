@@ -30,7 +30,8 @@ public class DriverFactory {
                 logger.info("Using APK file: {}", getAbsoluteAppPath());
             } else {
                 options.setAppPackage(ConfigReader.getProperty("appPackage"))
-                        .setAppActivity(ConfigReader.getProperty("appActivity"));
+                        .setAppActivity(ConfigReader.getProperty("appActivity"))
+                        .setNoReset(true);
                 logger.info("Using App Package: {}, App Activity: {}",
                         ConfigReader.getProperty("appPackage"),
                         ConfigReader.getProperty("appActivity"));

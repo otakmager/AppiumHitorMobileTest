@@ -58,6 +58,10 @@ public class CounterEvents {
         validation.assertElementVisible(CounterObject.counterMotor);
     }
 
+    public void clickMotorCounter() {
+        action.click(CounterObject.counterMotor);
+    }
+
     public void clickFinish() {
         action.click(CounterObject.appBarFinishButton);
         action.click(CounterObject.alertDialogYesButton);

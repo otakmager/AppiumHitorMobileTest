@@ -33,6 +33,7 @@ public class AddEditEvents {
     }
 
     public void verifyFormFieldVisible() {
+        validation.assertElementVisible(AddEditObject.optionalDataHeader);
         validation.assertElementVisible(AddEditObject.fieldPengamat);
         validation.assertElementVisible(AddEditObject.fieldLokasi);
         validation.assertElementVisible(AddEditObject.fieldKeterangan);
@@ -41,6 +42,22 @@ public class AddEditEvents {
     public void verifyDataPengamatanVisible() {
         action.swipeUntilVisible(AddEditObject.resultSummary, AddEditObject.resultRecord, false, 2);
         validation.assertElementVisible(AddEditObject.resultRecord);
+    }
+
+    public void fillForm(String pengamat, String lokasi, String keterangan) {
+        action.click(AddEditObject.fieldPengamat);
+        action.sendKeys(AddEditObject.fieldPengamat, pengamat);
+        action.hideKeyboard();
+        action.swipeUntilVisible(AddEditObject.fieldPengamat, AddEditObject.fieldLokasi, false, 2);
+
+        action.click(AddEditObject.fieldLokasi);
+        action.sendKeys(AddEditObject.fieldLokasi, lokasi);
+        action.hideKeyboard();
+        action.swipeUntilVisible(AddEditObject.fieldPengamat, AddEditObject.fieldKeterangan, false, 2);
+
+        action.click(AddEditObject.fieldKeterangan);
+        action.sendKeys(AddEditObject.fieldKeterangan, keterangan);
+        action.hideKeyboard();
     }
 
     public void clickSave() {

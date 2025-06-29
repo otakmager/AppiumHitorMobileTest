@@ -67,6 +67,18 @@ public class ActionKeyword {
         }
     }
 
+    public void hideKeyboard() {
+        String message;
+        try {
+            BaseTest.driver.hideKeyboard();
+            message = "Keyboard successfully hidden";
+            LogReportUtil.logInfo(logger, message);
+        } catch (Exception e) {
+            message = String.format("Failed to hide keyboard. Error: %s", e.getMessage());
+            LogReportUtil.logFailure(logger, message);
+        }
+    }
+
     public void swipe(ElementInfo scrollable, boolean isUp, double percent) {
         String direction = isUp ? "up" : "down";
         try {

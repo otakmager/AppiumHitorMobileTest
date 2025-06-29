@@ -969,3 +969,358 @@ Kita Catat!'
 ================== END TEST: com.otakmager.testCases.screen.PengaturanTest.pengaturanScreenShouldLoadSuccessfully ==================
 
 2025-06-29 17:24:01 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver quit successfully
+2025-06-29 17:42:49 [main] INFO  com.otakmager.utils.DriverFactory - Starting AndroidDriver initialization with useApkFile: false
+2025-06-29 17:42:49 [main] INFO  com.otakmager.utils.ConfigReader - Loaded config.properties successfully
+2025-06-29 17:42:49 [main] INFO  com.otakmager.utils.DriverFactory - Using App Package: com.otakmager.traffic_records, App Activity: com.otakmager.traffic_records.MainActivity
+2025-06-29 17:42:58 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver initialized successfully
+2025-06-29 17:42:58 [main] INFO  com.otakmager.base.BaseTest - 
+
+================== START TEST: CreateDataFlowTest.addDataScreenShouldLoadSuccessfully ==================
+
+2025-06-29 17:42:59 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu Pengamatan
+2025-06-29 17:43:00 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Menu Pengamatan
+2025-06-29 17:43:00 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu Jalan Raya
+2025-06-29 17:43:00 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Menu Jalan Raya
+2025-06-29 17:43:00 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu 5 Tipe
+2025-06-29 17:43:00 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Menu 5 Tipe
+2025-06-29 17:43:00 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Counter: Motor
+2025-06-29 17:43:01 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Counter: Motor
+2025-06-29 17:43:01 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: App Bar Finish Button
+2025-06-29 17:43:01 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Alert Dialog Yes Button
+2025-06-29 17:43:02 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Optional Data Header
+2025-06-29 17:43:02 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Field Pengamat
+2025-06-29 17:43:02 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Field Lokasi
+2025-06-29 17:43:03 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Field Keterangan
+2025-06-29 17:43:03 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Field Pengamat
+2025-06-29 17:43:04 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Field Pengamat
+2025-06-29 17:43:04 [main] INFO  com.otakmager.keywords.ActionKeyword - Sent keys 'Dimas' to element: Field Pengamat
+2025-06-29 17:43:05 [main] INFO  com.otakmager.keywords.ActionKeyword - Element 'Field Lokasi' found after 0 swipe(s)
+2025-06-29 17:43:06 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Field Lokasi
+2025-06-29 17:43:06 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Field Lokasi
+2025-06-29 17:43:06 [main] INFO  com.otakmager.keywords.ActionKeyword - Sent keys 'Surakarta, Central Java, Indonesia' to element: Field Lokasi
+2025-06-29 17:43:07 [main] INFO  com.otakmager.keywords.ActionKeyword - Swiped down on element: Field Lokasi (50%)
+2025-06-29 17:43:07 [main] INFO  com.otakmager.keywords.ActionKeyword - Swiped down on element: Field Lokasi (50%)
+2025-06-29 17:43:07 [main] ERROR com.otakmager.keywords.ActionKeyword - Failed to find element 'Field Keterangan' after 2 swipe(s) in direction 'down'
+2025-06-29 17:43:07 [main] INFO  com.otakmager.utils.RetryAnalyzer - Retrying test addDataScreenShouldLoadSuccessfully with status FAILURE for the 1 time(s).
+2025-06-29 17:43:07 [main] WARN  com.otakmager.base.BaseTest - TEST RESULT: com.otakmager.testCases.flow.CreateDataFlowTest.addDataScreenShouldLoadSuccessfully SKIPPED
+2025-06-29 17:43:07 [main] INFO  com.otakmager.base.BaseTest - 
+================== END TEST: com.otakmager.testCases.flow.CreateDataFlowTest.addDataScreenShouldLoadSuccessfully ==================
+
+2025-06-29 17:43:08 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver quit successfully
+2025-06-29 17:43:08 [main] INFO  com.otakmager.utils.DriverFactory - Starting AndroidDriver initialization with useApkFile: false
+2025-06-29 17:43:08 [main] INFO  com.otakmager.utils.DriverFactory - Using App Package: com.otakmager.traffic_records, App Activity: com.otakmager.traffic_records.MainActivity
+2025-06-29 17:44:36 [main] INFO  com.otakmager.utils.DriverFactory - Starting AndroidDriver initialization with useApkFile: false
+2025-06-29 17:44:36 [main] INFO  com.otakmager.utils.ConfigReader - Loaded config.properties successfully
+2025-06-29 17:44:36 [main] INFO  com.otakmager.utils.DriverFactory - Using App Package: com.otakmager.traffic_records, App Activity: com.otakmager.traffic_records.MainActivity
+2025-06-29 17:44:45 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver initialized successfully
+2025-06-29 17:44:45 [main] INFO  com.otakmager.base.BaseTest - 
+
+================== START TEST: CreateDataFlowTest.addDataScreenShouldLoadSuccessfully ==================
+
+2025-06-29 17:44:46 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu Pengamatan
+2025-06-29 17:44:46 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Menu Pengamatan
+2025-06-29 17:44:46 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu Jalan Raya
+2025-06-29 17:44:47 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Menu Jalan Raya
+2025-06-29 17:44:47 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu 5 Tipe
+2025-06-29 17:44:47 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Menu 5 Tipe
+2025-06-29 17:45:37 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Counter: Motor
+2025-06-29 17:46:27 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Counter: Motor
+2025-06-29 17:47:08 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: App Bar Finish Button
+2025-06-29 17:47:08 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Alert Dialog Yes Button
+2025-06-29 17:47:10 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Optional Data Header
+2025-06-29 17:47:10 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Field Pengamat
+2025-06-29 17:47:10 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Field Lokasi
+2025-06-29 17:47:10 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Field Keterangan
+2025-06-29 17:47:11 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Field Pengamat
+2025-06-29 17:47:12 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Field Pengamat
+2025-06-29 17:47:12 [main] INFO  com.otakmager.keywords.ActionKeyword - Sent keys 'Dimas' to element: Field Pengamat
+2025-06-29 17:47:13 [main] INFO  com.otakmager.keywords.ActionKeyword - Element 'Field Lokasi' found after 0 swipe(s)
+2025-06-29 17:47:13 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Field Lokasi
+2025-06-29 17:47:14 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Field Lokasi
+2025-06-29 17:47:14 [main] INFO  com.otakmager.keywords.ActionKeyword - Sent keys 'Surakarta, Central Java, Indonesia' to element: Field Lokasi
+2025-06-29 17:47:15 [main] INFO  com.otakmager.keywords.ActionKeyword - Swiped down on element: Field Pengamat (50%)
+2025-06-29 17:47:15 [main] INFO  com.otakmager.keywords.ActionKeyword - Swiped down on element: Field Pengamat (50%)
+2025-06-29 17:47:15 [main] ERROR com.otakmager.keywords.ActionKeyword - Failed to find element 'Field Keterangan' after 2 swipe(s) in direction 'down'
+2025-06-29 17:47:15 [main] INFO  com.otakmager.utils.RetryAnalyzer - Retrying test addDataScreenShouldLoadSuccessfully with status FAILURE for the 1 time(s).
+2025-06-29 17:47:15 [main] WARN  com.otakmager.base.BaseTest - TEST RESULT: com.otakmager.testCases.flow.CreateDataFlowTest.addDataScreenShouldLoadSuccessfully SKIPPED
+2025-06-29 17:47:15 [main] INFO  com.otakmager.base.BaseTest - 
+================== END TEST: com.otakmager.testCases.flow.CreateDataFlowTest.addDataScreenShouldLoadSuccessfully ==================
+
+2025-06-29 17:47:16 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver quit successfully
+2025-06-29 17:47:16 [main] INFO  com.otakmager.utils.DriverFactory - Starting AndroidDriver initialization with useApkFile: false
+2025-06-29 17:47:16 [main] INFO  com.otakmager.utils.DriverFactory - Using App Package: com.otakmager.traffic_records, App Activity: com.otakmager.traffic_records.MainActivity
+2025-06-29 17:47:21 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver initialized successfully
+2025-06-29 17:47:21 [main] INFO  com.otakmager.base.BaseTest - 
+
+================== START TEST: CreateDataFlowTest.addDataScreenShouldLoadSuccessfully ==================
+
+2025-06-29 17:47:22 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu Pengamatan
+2025-06-29 17:47:22 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Menu Pengamatan
+2025-06-29 17:47:23 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu Jalan Raya
+2025-06-29 17:47:23 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Menu Jalan Raya
+2025-06-29 17:47:24 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu 5 Tipe
+2025-06-29 17:47:34 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Menu 5 Tipe
+2025-06-29 17:49:19 [main] INFO  com.otakmager.utils.DriverFactory - Starting AndroidDriver initialization with useApkFile: false
+2025-06-29 17:49:19 [main] INFO  com.otakmager.utils.ConfigReader - Loaded config.properties successfully
+2025-06-29 17:49:19 [main] INFO  com.otakmager.utils.DriverFactory - Using App Package: com.otakmager.traffic_records, App Activity: com.otakmager.traffic_records.MainActivity
+2025-06-29 17:49:26 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver initialized successfully
+2025-06-29 17:49:26 [main] INFO  com.otakmager.base.BaseTest - 
+
+================== START TEST: CreateDataFlowTest.addDataScreenShouldLoadSuccessfully ==================
+
+2025-06-29 17:49:27 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu Pengamatan
+2025-06-29 17:49:28 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Menu Pengamatan
+2025-06-29 17:49:28 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu Jalan Raya
+2025-06-29 17:49:29 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Menu Jalan Raya
+2025-06-29 17:49:29 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu 5 Tipe
+2025-06-29 17:49:30 [main] ERROR com.otakmager.keywords.ActionKeyword - Failed to click on element: Menu 5 Tipe. Error: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [b0b60fe0-abb3-4072-82b4-83c0ae27cd35, clickElement {id=00000000-0000-0125-0000-001900000003}]
+Capabilities {appium:appActivity: com.otakmager.traffic_recor..., appium:appPackage: com.otakmager.traffic_records, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.otakmager.traffic_recor..., appPackage: com.otakmager.traffic_records, automationName: UiAutomator2, deviceName: 075872522F001494, newCommandTimeout: 60, platformName: ANDROID, platformVersion: 11}, appium:deviceApiLevel: 30, appium:deviceManufacturer: INFINIX MOBILITY LIMITED, appium:deviceModel: Infinix X663B, appium:deviceName: 075872522F001494, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: 075872522F001494, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 60, appium:pixelRatio: 3, appium:platformVersion: 11, appium:statBarHeight: 108, appium:takesScreenshot: true, appium:viewportRect: {height: 2292, left: 0, top: 108, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Element: [[AndroidDriver:  on ANDROID (b0b60fe0-abb3-4072-82b4-83c0ae27cd35)] -> -android uiautomator: new UiSelector().description("5
+5 Tipe
+Motor, Mobil, Bus, Truk, Tidak Bermotor")]
+Session ID: b0b60fe0-abb3-4072-82b4-83c0ae27cd35
+2025-06-29 17:49:30 [main] INFO  com.otakmager.utils.RetryAnalyzer - Retrying test addDataScreenShouldLoadSuccessfully with status FAILURE for the 1 time(s).
+2025-06-29 17:49:30 [main] WARN  com.otakmager.base.BaseTest - TEST RESULT: com.otakmager.testCases.flow.CreateDataFlowTest.addDataScreenShouldLoadSuccessfully SKIPPED
+2025-06-29 17:49:30 [main] INFO  com.otakmager.base.BaseTest - 
+================== END TEST: com.otakmager.testCases.flow.CreateDataFlowTest.addDataScreenShouldLoadSuccessfully ==================
+
+2025-06-29 17:49:31 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver quit successfully
+2025-06-29 17:49:31 [main] INFO  com.otakmager.utils.DriverFactory - Starting AndroidDriver initialization with useApkFile: false
+2025-06-29 17:49:31 [main] INFO  com.otakmager.utils.DriverFactory - Using App Package: com.otakmager.traffic_records, App Activity: com.otakmager.traffic_records.MainActivity
+2025-06-29 17:49:37 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver initialized successfully
+2025-06-29 17:49:37 [main] INFO  com.otakmager.base.BaseTest - 
+
+================== START TEST: CreateDataFlowTest.addDataScreenShouldLoadSuccessfully ==================
+
+2025-06-29 17:49:38 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu Pengamatan
+2025-06-29 17:49:38 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Menu Pengamatan
+2025-06-29 17:49:39 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu Jalan Raya
+2025-06-29 17:49:40 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Menu Jalan Raya
+2025-06-29 17:49:40 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu 5 Tipe
+2025-06-29 17:49:50 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Menu 5 Tipe
+2025-06-29 17:50:40 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Counter: Motor
+2025-06-29 17:51:31 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Counter: Motor
+2025-06-29 17:52:12 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: App Bar Finish Button
+2025-06-29 17:52:12 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Alert Dialog Yes Button
+2025-06-29 17:52:13 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Optional Data Header
+2025-06-29 17:52:13 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Field Pengamat
+2025-06-29 17:52:13 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Field Lokasi
+2025-06-29 17:52:13 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Field Keterangan
+2025-06-29 17:52:14 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Field Pengamat
+2025-06-29 17:52:15 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Field Pengamat
+2025-06-29 17:52:15 [main] INFO  com.otakmager.keywords.ActionKeyword - Sent keys 'Dimas' to element: Field Pengamat
+2025-06-29 17:52:16 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Field Lokasi
+2025-06-29 17:52:17 [main] INFO  com.otakmager.keywords.ActionKeyword - Sent keys 'Surakarta, Central Java, Indonesia' to element: Field Lokasi
+2025-06-29 17:52:17 [main] INFO  com.otakmager.keywords.ActionKeyword - Element 'Field Lokasi' found after 0 swipe(s)
+2025-06-29 17:52:18 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Field Lokasi
+2025-06-29 17:52:18 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Field Lokasi
+2025-06-29 17:52:18 [main] INFO  com.otakmager.keywords.ActionKeyword - Sent keys 'Surakarta, Central Java, Indonesia' to element: Field Lokasi
+2025-06-29 17:52:20 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Optional Data Header
+2025-06-29 17:52:20 [main] INFO  com.otakmager.keywords.ActionKeyword - Swiped down on element: Field Pengamat (50%)
+2025-06-29 17:52:20 [main] INFO  com.otakmager.keywords.ActionKeyword - Swiped down on element: Field Pengamat (50%)
+2025-06-29 17:52:20 [main] ERROR com.otakmager.keywords.ActionKeyword - Failed to find element 'Field Keterangan' after 2 swipe(s) in direction 'down'
+2025-06-29 17:52:20 [main] INFO  com.otakmager.utils.RetryAnalyzer - Retrying test addDataScreenShouldLoadSuccessfully with status FAILURE for the 2 time(s).
+2025-06-29 17:52:21 [main] INFO  com.otakmager.utils.SuiteListener - Screenshot captured for failed test: addDataScreenShouldLoadSuccessfully
+2025-06-29 17:52:21 [main] INFO  com.otakmager.utils.SuiteListener - Screenshot saved at: E:\Project\QA_quality_assurance\appium-project\AppiumHitorMobileTest\screenshots\addDataScreenShouldLoadSuccessfully
+2025-06-29 17:52:21 [main] ERROR com.otakmager.base.BaseTest - TEST RESULT: com.otakmager.testCases.flow.CreateDataFlowTest.addDataScreenShouldLoadSuccessfully FAILED
+2025-06-29 17:52:21 [main] INFO  com.otakmager.base.BaseTest - 
+================== END TEST: com.otakmager.testCases.flow.CreateDataFlowTest.addDataScreenShouldLoadSuccessfully ==================
+
+2025-06-29 17:52:23 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver quit successfully
+2025-06-29 20:38:26 [main] INFO  com.otakmager.utils.DriverFactory - Starting AndroidDriver initialization with useApkFile: false
+2025-06-29 20:38:26 [main] INFO  com.otakmager.utils.ConfigReader - Loaded config.properties successfully
+2025-06-29 20:38:26 [main] INFO  com.otakmager.utils.DriverFactory - Using App Package: com.otakmager.traffic_records, App Activity: com.otakmager.traffic_records.MainActivity
+2025-06-29 20:38:29 [main] ERROR com.otakmager.utils.DriverFactory - Failed to initialize AndroidDriver: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-P9GCCSB', ip: '172.22.32.1'
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:appActivity: com.otakmager.traffic_recor..., appium:appPackage: com.otakmager.traffic_records, appium:automationName: UiAutomator2, appium:deviceName: 075872522F001494, appium:newCommandTimeout: 60, appium:platformVersion: 11, platformName: ANDROID}]}]
+Capabilities {appium:appActivity: com.otakmager.traffic_recor..., appium:appPackage: com.otakmager.traffic_records, appium:automationName: UiAutomator2, appium:deviceName: 075872522F001494, appium:newCommandTimeout: 60, appium:platformVersion: 11, platformName: ANDROID}
+org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-P9GCCSB', ip: '172.22.32.1'
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:appActivity: com.otakmager.traffic_recor..., appium:appPackage: com.otakmager.traffic_records, appium:automationName: UiAutomator2, appium:deviceName: 075872522F001494, appium:newCommandTimeout: 60, appium:platformVersion: 11, platformName: ANDROID}]}]
+Capabilities {appium:appActivity: com.otakmager.traffic_recor..., appium:appPackage: com.otakmager.traffic_records, appium:automationName: UiAutomator2, appium:deviceName: 075872522F001494, appium:newCommandTimeout: 60, appium:platformVersion: 11, platformName: ANDROID}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:562)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:313)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:173)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:101)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:113)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:109)
+	at com.otakmager.utils.DriverFactory.initDriver(DriverFactory.java:39)
+	at com.otakmager.utils.DriverFactory.getDriver(DriverFactory.java:49)
+	at com.otakmager.base.BaseTest.setUpTest(BaseTest.java:29)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:500)
+	at io.appium.java_client.internal.filters.AppiumIdempotencyFilter.lambda$apply$0(AppiumIdempotencyFilter.java:35)
+	at io.appium.java_client.internal.filters.AppiumUserAgentFilter.lambda$apply$0(AppiumUserAgentFilter.java:87)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$2(JdkHttpClient.java:387)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:573)
+	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:123)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:459)
+	... 10 more
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1047)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:230)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:206)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run$$$capture(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java)
+	... 3 more
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:195)
+	at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:760)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:848)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185)
+	... 10 more
+2025-06-29 20:41:11 [main] INFO  com.otakmager.utils.DriverFactory - Starting AndroidDriver initialization with useApkFile: false
+2025-06-29 20:41:11 [main] INFO  com.otakmager.utils.ConfigReader - Loaded config.properties successfully
+2025-06-29 20:41:11 [main] INFO  com.otakmager.utils.DriverFactory - Using App Package: com.otakmager.traffic_records, App Activity: com.otakmager.traffic_records.MainActivity
+2025-06-29 20:41:25 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver initialized successfully
+2025-06-29 20:41:25 [main] INFO  com.otakmager.base.BaseTest - 
+
+================== START TEST: CreateDataFlowTest.addDataScreenShouldLoadSuccessfully ==================
+
+2025-06-29 20:41:26 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu Pengamatan
+2025-06-29 20:41:27 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Menu Pengamatan
+2025-06-29 20:41:27 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu Jalan Raya
+2025-06-29 20:41:28 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Menu Jalan Raya
+2025-06-29 20:41:28 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu 5 Tipe
+2025-06-29 20:41:38 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Menu 5 Tipe
+2025-06-29 20:42:29 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Counter: Motor
+2025-06-29 20:43:19 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Counter: Motor
+2025-06-29 20:44:01 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: App Bar Finish Button
+2025-06-29 20:44:01 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Alert Dialog Yes Button
+2025-06-29 20:44:01 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Optional Data Header
+2025-06-29 20:44:02 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Field Pengamat
+2025-06-29 20:44:02 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Field Lokasi
+2025-06-29 20:44:03 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Field Keterangan
+2025-06-29 20:44:04 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Field Pengamat
+2025-06-29 20:44:04 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Field Pengamat
+2025-06-29 20:44:05 [main] INFO  com.otakmager.keywords.ActionKeyword - Sent keys 'Dimas' to element: Field Pengamat
+2025-06-29 20:44:07 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Field Lokasi
+2025-06-29 20:44:07 [main] INFO  com.otakmager.keywords.ActionKeyword - Sent keys 'Surakarta, Central Java, Indonesia' to element: Field Lokasi
+2025-06-29 20:44:08 [main] INFO  com.otakmager.keywords.ActionKeyword - Element 'Field Lokasi' found after 0 swipe(s)
+2025-06-29 20:44:10 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Field Lokasi
+2025-06-29 20:44:10 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Field Lokasi
+2025-06-29 20:44:10 [main] INFO  com.otakmager.keywords.ActionKeyword - Sent keys 'Surakarta, Central Java, Indonesia' to element: Field Lokasi
+2025-06-29 20:44:11 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Optional Data Header
+2025-06-29 20:44:12 [main] ERROR com.otakmager.keywords.ActionKeyword - Failed to click on element: Field Keterangan. Error: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [96e286ad-8fb0-42bd-9d05-d019701ae145, findElement {value=new UiSelector().className("android.widget.EditText").instance(2), using=-android uiautomator}]
+Capabilities {appium:appActivity: com.otakmager.traffic_recor..., appium:appPackage: com.otakmager.traffic_records, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.otakmager.traffic_recor..., appPackage: com.otakmager.traffic_records, automationName: UiAutomator2, deviceName: 075872522F001494, newCommandTimeout: 60, platformName: ANDROID, platformVersion: 11}, appium:deviceApiLevel: 30, appium:deviceManufacturer: INFINIX MOBILITY LIMITED, appium:deviceModel: Infinix X663B, appium:deviceName: 075872522F001494, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: 075872522F001494, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 60, appium:pixelRatio: 3, appium:platformVersion: 11, appium:statBarHeight: 108, appium:takesScreenshot: true, appium:viewportRect: {height: 2292, left: 0, top: 108, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 96e286ad-8fb0-42bd-9d05-d019701ae145
+2025-06-29 20:44:12 [main] INFO  com.otakmager.utils.RetryAnalyzer - Retrying test addDataScreenShouldLoadSuccessfully with status FAILURE for the 1 time(s).
+2025-06-29 20:44:12 [main] WARN  com.otakmager.base.BaseTest - TEST RESULT: com.otakmager.testCases.flow.CreateDataFlowTest.addDataScreenShouldLoadSuccessfully SKIPPED
+2025-06-29 20:44:12 [main] INFO  com.otakmager.base.BaseTest - 
+================== END TEST: com.otakmager.testCases.flow.CreateDataFlowTest.addDataScreenShouldLoadSuccessfully ==================
+
+2025-06-29 20:44:14 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver quit successfully
+2025-06-29 20:44:14 [main] INFO  com.otakmager.utils.DriverFactory - Starting AndroidDriver initialization with useApkFile: false
+2025-06-29 20:44:14 [main] INFO  com.otakmager.utils.DriverFactory - Using App Package: com.otakmager.traffic_records, App Activity: com.otakmager.traffic_records.MainActivity
+2025-06-29 20:44:22 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver initialized successfully
+2025-06-29 20:44:22 [main] INFO  com.otakmager.base.BaseTest - 
+
+================== START TEST: CreateDataFlowTest.addDataScreenShouldLoadSuccessfully ==================
+
+2025-06-29 20:44:23 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu Pengamatan
+2025-06-29 20:44:23 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Menu Pengamatan
+2025-06-29 20:44:24 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu Jalan Raya
+2025-06-29 21:09:10 [main] INFO  com.otakmager.utils.DriverFactory - Starting AndroidDriver initialization with useApkFile: false
+2025-06-29 21:09:10 [main] INFO  com.otakmager.utils.ConfigReader - Loaded config.properties successfully
+2025-06-29 21:09:11 [main] INFO  com.otakmager.utils.DriverFactory - Using App Package: com.otakmager.traffic_records, App Activity: com.otakmager.traffic_records.MainActivity
+2025-06-29 21:09:21 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver initialized successfully
+2025-06-29 21:09:21 [main] INFO  com.otakmager.base.BaseTest - 
+
+================== START TEST: CreateDataFlowTest.addDataScreenShouldLoadSuccessfully ==================
+
+2025-06-29 21:09:22 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu Pengamatan
+2025-06-29 21:09:22 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Menu Pengamatan
+2025-06-29 21:09:22 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu Jalan Raya
+2025-06-29 21:09:23 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Menu Jalan Raya
+2025-06-29 21:09:23 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu 5 Tipe
+2025-06-29 21:09:23 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Menu 5 Tipe
+2025-06-29 21:09:23 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Counter: Motor
+2025-06-29 21:09:34 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Counter: Motor
+2025-06-29 21:10:14 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: App Bar Finish Button
+2025-06-29 21:10:15 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Alert Dialog Yes Button
+2025-06-29 21:10:16 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Optional Data Header
+2025-06-29 21:10:16 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Field Pengamat
+2025-06-29 21:10:16 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Field Lokasi
+2025-06-29 21:10:16 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Field Keterangan
+2025-06-29 21:10:18 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Field Pengamat
+2025-06-29 21:10:18 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Field Pengamat
+2025-06-29 21:10:18 [main] INFO  com.otakmager.keywords.ActionKeyword - Sent keys 'Dimas' to element: Field Pengamat
+2025-06-29 21:10:20 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Field Lokasi
+2025-06-29 21:10:21 [main] INFO  com.otakmager.keywords.ActionKeyword - Sent keys 'Surakarta, Central Java, Indonesia' to element: Field Lokasi
+2025-06-29 21:10:26 [main] INFO  com.otakmager.keywords.ActionKeyword - Keyboard successfully hidden
+2025-06-29 21:10:27 [main] INFO  com.otakmager.keywords.ActionKeyword - Element 'Field Lokasi' found after 0 swipe(s)
+2025-06-29 21:10:28 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Field Lokasi
+2025-06-29 21:10:28 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Field Lokasi
+2025-06-29 21:10:28 [main] INFO  com.otakmager.keywords.ActionKeyword - Sent keys 'Surakarta, Central Java, Indonesia' to element: Field Lokasi
+2025-06-29 21:10:32 [main] INFO  com.otakmager.keywords.ActionKeyword - Keyboard successfully hidden
+2025-06-29 21:10:33 [main] INFO  com.otakmager.keywords.ActionKeyword - Element 'Field Keterangan' found after 0 swipe(s)
+2025-06-29 21:10:33 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Field Keterangan
+2025-06-29 21:10:34 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Field Keterangan
+2025-06-29 21:10:34 [main] INFO  com.otakmager.keywords.ActionKeyword - Sent keys 'Weather clear, vehicle count stable' to element: Field Keterangan
+2025-06-29 21:10:39 [main] INFO  com.otakmager.keywords.ActionKeyword - Keyboard successfully hidden
+2025-06-29 21:10:41 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: App Bar Save Button
+2025-06-29 21:10:41 [main] INFO  com.otakmager.base.BaseTest - TEST RESULT: com.otakmager.testCases.flow.CreateDataFlowTest.addDataScreenShouldLoadSuccessfully PASSED
+2025-06-29 21:10:41 [main] INFO  com.otakmager.base.BaseTest - 
+================== END TEST: com.otakmager.testCases.flow.CreateDataFlowTest.addDataScreenShouldLoadSuccessfully ==================
+
+2025-06-29 21:10:42 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver quit successfully

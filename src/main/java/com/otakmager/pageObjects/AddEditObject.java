@@ -10,6 +10,7 @@ public interface AddEditObject {
     ElementInfo appBarSaveButton = new ElementInfo("App Bar Save Button", AppiumBy.androidUIAutomator("new UiSelector().className(\"android.widget.Button\").instance(1)"));
     ElementInfo resultSummary = new ElementInfo("Result Summary", AppiumBy.androidUIAutomator("new UiSelector().descriptionContains(\"Ringkasan\")"));
     ElementInfo resultRecord = new ElementInfo("Result Summary", AppiumBy.androidUIAutomator("new UiSelector().descriptionContains(\"Data Pengamatan\")"));
+    ElementInfo optionalDataHeader = new ElementInfo("Optional Data Header", AppiumBy.androidUIAutomator("new UiSelector().descriptionContains(\"Data Pelengkap Opsional\")"));
     ElementInfo fieldPengamat = new ElementInfo("Field Pengamat", AppiumBy.androidUIAutomator("new UiSelector().className(\"android.widget.EditText\").instance(0)"));
     ElementInfo fieldLokasi = new ElementInfo("Field Lokasi", AppiumBy.androidUIAutomator("new UiSelector().className(\"android.widget.EditText\").instance(1)"));
     ElementInfo fieldKeterangan = new ElementInfo("Field Keterangan", AppiumBy.androidUIAutomator("new UiSelector().className(\"android.widget.EditText\").instance(2)"));

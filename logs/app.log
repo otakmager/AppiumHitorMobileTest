@@ -931,3 +931,41 @@ Kita Catat!'
 ================== END TEST: com.otakmager.testCases.screen.RiwayatTest.riwayatScreenShouldLoadSuccessfullyWhenNoData ==================
 
 2025-06-29 17:07:45 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver quit successfully
+2025-06-29 17:21:36 [main] INFO  com.otakmager.utils.DriverFactory - Starting AndroidDriver initialization with useApkFile: true
+2025-06-29 17:21:36 [main] INFO  com.otakmager.utils.ConfigReader - Loaded config.properties successfully
+2025-06-29 17:21:36 [main] INFO  com.otakmager.utils.DriverFactory - Using APK file: E:\Project\QA_quality_assurance\appium-project\AppiumHitorMobileTest/src/test/resources/hitor-v1.0.0-release.apk
+2025-06-29 17:23:01 [main] INFO  com.otakmager.utils.DriverFactory - Starting AndroidDriver initialization with useApkFile: true
+2025-06-29 17:23:01 [main] INFO  com.otakmager.utils.ConfigReader - Loaded config.properties successfully
+2025-06-29 17:23:49 [main] INFO  com.otakmager.utils.DriverFactory - Starting AndroidDriver initialization with useApkFile: true
+2025-06-29 17:23:49 [main] INFO  com.otakmager.utils.ConfigReader - Loaded config.properties successfully
+2025-06-29 17:23:49 [main] INFO  com.otakmager.utils.DriverFactory - Using APK file: E:\Project\QA_quality_assurance\appium-project\AppiumHitorMobileTest/src/test/resources/hitor-v1.0.0-release.apk
+2025-06-29 17:23:58 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver initialized successfully
+2025-06-29 17:23:58 [main] INFO  com.otakmager.base.BaseTest - 
+
+================== START TEST: PengaturanTest.pengaturanScreenShouldLoadSuccessfully ==================
+
+2025-06-29 17:23:58 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu Pengaturan
+2025-06-29 17:23:59 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Menu Pengaturan
+2025-06-29 17:23:59 [main] INFO  com.otakmager.keywords.ActionKeyword - Retrieved text 'Pengaturan' from element: App Bar Title
+2025-06-29 17:23:59 [main] INFO  com.otakmager.keywords.ValidationKeyword - Validation passed: expected 'Pengaturan' and found 'Pengaturan'
+2025-06-29 17:23:59 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: App Bar Back Button
+2025-06-29 17:23:59 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Header Button Style
+2025-06-29 17:23:59 [main] INFO  com.otakmager.keywords.ActionKeyword - Retrieved text 'Bentuk Counter' from element: Header Button Style
+2025-06-29 17:23:59 [main] INFO  com.otakmager.keywords.ValidationKeyword - Validation passed: expected 'Bentuk Counter' and found 'Bentuk Counter'
+2025-06-29 17:23:59 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Radio Button Simple Style
+2025-06-29 17:23:59 [main] INFO  com.otakmager.keywords.ActionKeyword - Retrieved text 'Simple' from element: Radio Button Simple Style
+2025-06-29 17:23:59 [main] INFO  com.otakmager.keywords.ValidationKeyword - Validation passed: expected 'Simple' and found 'Simple'
+2025-06-29 17:24:00 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Radio Button Counter Style
+2025-06-29 17:24:00 [main] INFO  com.otakmager.keywords.ActionKeyword - Retrieved text 'Counter' from element: Radio Button Counter Style
+2025-06-29 17:24:00 [main] INFO  com.otakmager.keywords.ValidationKeyword - Validation passed: expected 'Counter' and found 'Counter'
+2025-06-29 17:24:00 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Radio Button Big Simple
+2025-06-29 17:24:00 [main] INFO  com.otakmager.keywords.ActionKeyword - Retrieved text 'Big Simple' from element: Radio Button Big Simple
+2025-06-29 17:24:00 [main] INFO  com.otakmager.keywords.ValidationKeyword - Validation passed: expected 'Big Simple' and found 'Big Simple'
+2025-06-29 17:24:00 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Radio Button Big Counter
+2025-06-29 17:24:00 [main] INFO  com.otakmager.keywords.ActionKeyword - Retrieved text 'Big Counter' from element: Radio Button Big Counter
+2025-06-29 17:24:00 [main] INFO  com.otakmager.keywords.ValidationKeyword - Validation passed: expected 'Big Counter' and found 'Big Counter'
+2025-06-29 17:24:00 [main] INFO  com.otakmager.base.BaseTest - TEST RESULT: com.otakmager.testCases.screen.PengaturanTest.pengaturanScreenShouldLoadSuccessfully PASSED
+2025-06-29 17:24:00 [main] INFO  com.otakmager.base.BaseTest - 
+================== END TEST: com.otakmager.testCases.screen.PengaturanTest.pengaturanScreenShouldLoadSuccessfully ==================
+
+2025-06-29 17:24:01 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver quit successfully

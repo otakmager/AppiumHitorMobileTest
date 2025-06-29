@@ -39,4 +39,8 @@ public class HomeEvents {
     public void clickMenuPengamatan() {
         action.click(HomeObject.menuPengamatan);
     }
+
+    public void clickMenuRiwayat() {
+        action.click(HomeObject.menuRiwayat);
+    }
 }

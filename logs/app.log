@@ -911,3 +911,23 @@ Kita Catat!'
 ================== END TEST: com.otakmager.testCases.screen.AddDataTest.counterScreenShouldLoadSuccessfully ==================
 
 2025-06-28 22:13:38 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver quit successfully
+2025-06-29 17:07:20 [main] INFO  com.otakmager.utils.DriverFactory - Starting AndroidDriver initialization with useApkFile: true
+2025-06-29 17:07:20 [main] INFO  com.otakmager.utils.ConfigReader - Loaded config.properties successfully
+2025-06-29 17:07:20 [main] INFO  com.otakmager.utils.DriverFactory - Using APK file: E:\Project\QA_quality_assurance\appium-project\AppiumHitorMobileTest/src/test/resources/hitor-v1.0.0-release.apk
+2025-06-29 17:07:42 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver initialized successfully
+2025-06-29 17:07:42 [main] INFO  com.otakmager.base.BaseTest - 
+
+================== START TEST: RiwayatTest.riwayatScreenShouldLoadSuccessfullyWhenNoData ==================
+
+2025-06-29 17:07:43 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu Riwayat
+2025-06-29 17:07:44 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Menu Riwayat
+2025-06-29 17:07:44 [main] INFO  com.otakmager.keywords.ActionKeyword - Retrieved text 'Riwayat' from element: App Bar Title
+2025-06-29 17:07:44 [main] INFO  com.otakmager.keywords.ValidationKeyword - Validation passed: expected 'Riwayat' and found 'Riwayat'
+2025-06-29 17:07:44 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: App Bar Back Button
+2025-06-29 17:07:44 [main] INFO  com.otakmager.keywords.ActionKeyword - Retrieved text 'Tidak ada data' from element: No Data Text
+2025-06-29 17:07:44 [main] INFO  com.otakmager.keywords.ValidationKeyword - Validation passed: expected 'Tidak ada data' and found 'Tidak ada data'
+2025-06-29 17:07:44 [main] INFO  com.otakmager.base.BaseTest - TEST RESULT: com.otakmager.testCases.screen.RiwayatTest.riwayatScreenShouldLoadSuccessfullyWhenNoData PASSED
+2025-06-29 17:07:44 [main] INFO  com.otakmager.base.BaseTest - 
+================== END TEST: com.otakmager.testCases.screen.RiwayatTest.riwayatScreenShouldLoadSuccessfullyWhenNoData ==================
+
+2025-06-29 17:07:45 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver quit successfully

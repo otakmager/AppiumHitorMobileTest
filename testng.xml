@@ -11,7 +11,8 @@
 <!--            <class name="com.otakmager.testCases.screen.PilihJalanTest"/>-->
 <!--            <class name="com.otakmager.testCases.screen.PilihKelompokTest"/>-->
 <!--            <class name="com.otakmager.testCases.screen.CounterTest"/>-->
-            <class name="com.otakmager.testCases.screen.AddDataTest"/>
+<!--            <class name="com.otakmager.testCases.screen.AddDataTest"/>-->
+            <class name="com.otakmager.testCases.screen.RiwayatTest"/>
         </classes>
     </test>
 </suite>

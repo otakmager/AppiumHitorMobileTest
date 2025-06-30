@@ -105,7 +105,7 @@ Test execution is configured in [`testng.xml`](https://github.com/otakmager/Appi
 
 ---
 
-## App Screnshot
+## App Screenshots
 
 <table>
   <tr>

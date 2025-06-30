@@ -54,11 +54,32 @@ public class DriverFactory {
 
     public static void quitDriver() {
         if (driver != null) {
+            terminateRunningApp();
             driver.quit();
             driver = null;
             logger.info("AndroidDriver quit successfully");
         }
     }
+
+    public static void terminateRunningApp() {
+        if (driver == null) {
+            logger.warn("Driver is null, cannot terminate app.");
+            return;
+        }
+
+        String appPackage = ConfigReader.getProperty("appPackage");
+        try {
+            if (driver.isAppInstalled(appPackage)) {
+                driver.terminateApp(appPackage);
+                logger.info("Terminated app: {}", appPackage);
+            } else {
+                logger.info("App {} is not installed, skipping terminate.", appPackage);
+            }
+        } catch (Exception e) {
+            logger.warn("Failed to terminate app: {}", e.getMessage());
+        }
+    }
+
 
     private static String getAbsoluteAppPath() {
         return System.getProperty("user.dir") + ConfigReader.getProperty("app");

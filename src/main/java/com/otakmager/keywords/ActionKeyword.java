@@ -79,8 +79,8 @@ public class ActionKeyword {
         }
     }
 
-    public void swipe(ElementInfo scrollable, boolean isUp, double percent) {
-        String direction = isUp ? "up" : "down";
+    public void swipe(ElementInfo scrollable, boolean isScrollUp, double percent) {
+        String direction = isScrollUp ? "down" : "up";
         try {
             RemoteWebElement el = (RemoteWebElement) BaseTest.driver.findElement(scrollable.locator());
 
@@ -91,8 +91,10 @@ public class ActionKeyword {
             ));
 
             LogReportUtil.logInfo(logger, String.format(
-                    "Swiped %s on element: %s (%.0f%%)",
-                    direction, scrollable.name(), percent * 100
+                    "Swiped finger '%s' on element '%s' (%.0f%%) → content scroll %s (finger swipe %s)",
+                    direction, scrollable.name(), percent * 100,
+                    isScrollUp ? "up" : "down",
+                    direction
             ));
         } catch (Exception e) {
             String message = String.format("Failed to swipe %s on element: %s. Error: %s", direction, scrollable.name(), e.getMessage());
@@ -101,8 +103,8 @@ public class ActionKeyword {
         }
     }
 
-    public void swipeUntilVisible(ElementInfo scrollable, ElementInfo target, boolean isUp, int maxAttempts) {
-        String direction = isUp ? "up" : "down";
+    public void swipeUntilVisible(ElementInfo scrollable, ElementInfo target, boolean isScrollUp, int maxAttempts) {
+        String direction = isScrollUp ? "down" : "up";
         int attempt = 0;
         while (attempt < maxAttempts) {
             try {
@@ -115,7 +117,7 @@ public class ActionKeyword {
                 // do nothing, element not found yet
             }
 
-            swipe(scrollable, isUp, 0.5);
+            swipe(scrollable, isScrollUp, 0.5);
             attempt++;
         }
 

@@ -26,7 +26,7 @@ public class AddDataTest extends BaseTest {
         events3.clickMenu5Tipe();
 
         // counter screen
-        events4.verifyAppBarResetButtonVisible();
+        events4.verifyAppBarFinishButtonVisible();
         events4.clickFinish();
 
         // add screen

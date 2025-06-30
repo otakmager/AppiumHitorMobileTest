@@ -1324,3 +1324,692 @@ Session ID: 96e286ad-8fb0-42bd-9d05-d019701ae145
 ================== END TEST: com.otakmager.testCases.flow.CreateDataFlowTest.addDataScreenShouldLoadSuccessfully ==================
 
 2025-06-29 21:10:42 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver quit successfully
+2025-06-29 21:43:58 [main] INFO  com.otakmager.utils.DriverFactory - Starting AndroidDriver initialization with useApkFile: false
+2025-06-29 21:43:58 [main] INFO  com.otakmager.utils.ConfigReader - Loaded config.properties successfully
+2025-06-29 21:43:59 [main] INFO  com.otakmager.utils.DriverFactory - Using App Package: com.otakmager.traffic_records, App Activity: com.otakmager.traffic_records.MainActivity
+2025-06-29 21:44:12 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver initialized successfully
+2025-06-29 21:44:12 [main] INFO  com.otakmager.base.BaseTest - 
+
+================== START TEST: ViewDetailDataFlowTest.viewDetailDataShouldSucceed ==================
+
+2025-06-29 21:44:13 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu Riwayat
+2025-06-29 21:44:14 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Menu Riwayat
+2025-06-29 21:44:14 [main] ERROR com.otakmager.keywords.ValidationKeyword - Element NOT FOUND: Item Data
+2025-06-29 21:44:14 [main] INFO  com.otakmager.utils.RetryAnalyzer - Retrying test viewDetailDataShouldSucceed with status FAILURE for the 1 time(s).
+2025-06-29 21:44:14 [main] WARN  com.otakmager.base.BaseTest - TEST RESULT: com.otakmager.testCases.flow.ViewDetailDataFlowTest.viewDetailDataShouldSucceed SKIPPED
+2025-06-29 21:44:14 [main] INFO  com.otakmager.base.BaseTest - 
+================== END TEST: com.otakmager.testCases.flow.ViewDetailDataFlowTest.viewDetailDataShouldSucceed ==================
+
+2025-06-29 21:44:15 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver quit successfully
+2025-06-29 21:44:15 [main] INFO  com.otakmager.utils.DriverFactory - Starting AndroidDriver initialization with useApkFile: false
+2025-06-29 21:44:15 [main] INFO  com.otakmager.utils.DriverFactory - Using App Package: com.otakmager.traffic_records, App Activity: com.otakmager.traffic_records.MainActivity
+2025-06-29 21:50:28 [main] INFO  com.otakmager.utils.DriverFactory - Starting AndroidDriver initialization with useApkFile: false
+2025-06-29 21:50:28 [main] INFO  com.otakmager.utils.ConfigReader - Loaded config.properties successfully
+2025-06-29 21:50:28 [main] INFO  com.otakmager.utils.DriverFactory - Using App Package: com.otakmager.traffic_records, App Activity: com.otakmager.traffic_records.MainActivity
+2025-06-29 21:50:36 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver initialized successfully
+2025-06-29 21:50:36 [main] INFO  com.otakmager.base.BaseTest - 
+
+================== START TEST: CreateDataFlowTest.createDataShouldSucceed ==================
+
+2025-06-29 21:50:36 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu Pengamatan
+2025-06-29 21:50:37 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Menu Pengamatan
+2025-06-29 21:50:37 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu Jalan Raya
+2025-06-29 21:50:37 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Menu Jalan Raya
+2025-06-29 21:50:37 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu 5 Tipe
+2025-06-29 21:50:38 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Menu 5 Tipe
+2025-06-29 21:50:48 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Counter: Motor
+2025-06-29 21:51:38 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Counter: Motor
+2025-06-29 21:52:19 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: App Bar Finish Button
+2025-06-29 21:52:19 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Alert Dialog Yes Button
+2025-06-29 21:52:20 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Optional Data Header
+2025-06-29 21:52:21 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Field Pengamat
+2025-06-29 21:52:21 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Field Lokasi
+2025-06-29 21:52:21 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Field Keterangan
+2025-06-29 21:52:21 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Field Pengamat
+2025-06-29 21:52:23 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Field Pengamat
+2025-06-29 21:52:23 [main] INFO  com.otakmager.keywords.ActionKeyword - Sent keys 'Dimas' to element: Field Pengamat
+2025-06-29 21:52:27 [main] INFO  com.otakmager.keywords.ActionKeyword - Keyboard successfully hidden
+2025-06-29 21:52:28 [main] INFO  com.otakmager.keywords.ActionKeyword - Element 'Field Lokasi' found after 0 swipe(s)
+2025-06-29 21:52:29 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Field Lokasi
+2025-06-29 21:52:29 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Field Lokasi
+2025-06-29 21:52:29 [main] INFO  com.otakmager.keywords.ActionKeyword - Sent keys 'Surakarta, Central Java, Indonesia' to element: Field Lokasi
+2025-06-29 21:52:33 [main] INFO  com.otakmager.keywords.ActionKeyword - Keyboard successfully hidden
+2025-06-29 21:52:34 [main] INFO  com.otakmager.keywords.ActionKeyword - Element 'Field Keterangan' found after 0 swipe(s)
+2025-06-29 21:52:35 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Field Keterangan
+2025-06-29 21:52:35 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Field Keterangan
+2025-06-29 21:52:36 [main] INFO  com.otakmager.keywords.ActionKeyword - Sent keys 'Weather clear, vehicle count stable' to element: Field Keterangan
+2025-06-29 21:52:40 [main] INFO  com.otakmager.keywords.ActionKeyword - Keyboard successfully hidden
+2025-06-29 21:52:42 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: App Bar Save Button
+2025-06-29 21:52:42 [main] INFO  com.otakmager.base.BaseTest - TEST RESULT: com.otakmager.testCases.flow.CreateDataFlowTest.createDataShouldSucceed PASSED
+2025-06-29 21:52:42 [main] INFO  com.otakmager.base.BaseTest - 
+================== END TEST: com.otakmager.testCases.flow.CreateDataFlowTest.createDataShouldSucceed ==================
+
+2025-06-29 21:52:43 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver quit successfully
+2025-06-29 21:52:43 [main] INFO  com.otakmager.utils.DriverFactory - Starting AndroidDriver initialization with useApkFile: false
+2025-06-29 21:52:43 [main] INFO  com.otakmager.utils.DriverFactory - Using App Package: com.otakmager.traffic_records, App Activity: com.otakmager.traffic_records.MainActivity
+2025-06-29 21:52:49 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver initialized successfully
+2025-06-29 21:52:49 [main] INFO  com.otakmager.base.BaseTest - 
+
+================== START TEST: ViewDetailDataFlowTest.viewDetailDataShouldSucceed ==================
+
+2025-06-29 21:52:49 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu Riwayat
+2025-06-29 21:52:50 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Menu Riwayat
+2025-06-29 21:52:50 [main] ERROR com.otakmager.keywords.ValidationKeyword - Element NOT FOUND: Item Data
+2025-06-29 21:52:51 [main] INFO  com.otakmager.utils.RetryAnalyzer - Retrying test viewDetailDataShouldSucceed with status FAILURE for the 1 time(s).
+2025-06-29 21:52:51 [main] WARN  com.otakmager.base.BaseTest - TEST RESULT: com.otakmager.testCases.flow.ViewDetailDataFlowTest.viewDetailDataShouldSucceed SKIPPED
+2025-06-29 21:52:51 [main] INFO  com.otakmager.base.BaseTest - 
+================== END TEST: com.otakmager.testCases.flow.ViewDetailDataFlowTest.viewDetailDataShouldSucceed ==================
+
+2025-06-29 21:52:51 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver quit successfully
+2025-06-29 21:52:51 [main] INFO  com.otakmager.utils.DriverFactory - Starting AndroidDriver initialization with useApkFile: false
+2025-06-29 21:52:51 [main] INFO  com.otakmager.utils.DriverFactory - Using App Package: com.otakmager.traffic_records, App Activity: com.otakmager.traffic_records.MainActivity
+2025-06-29 21:52:58 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver initialized successfully
+2025-06-29 21:52:58 [main] INFO  com.otakmager.base.BaseTest - 
+
+================== START TEST: ViewDetailDataFlowTest.viewDetailDataShouldSucceed ==================
+
+2025-06-29 21:52:59 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu Riwayat
+2025-06-29 21:53:00 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Menu Riwayat
+2025-06-29 21:53:00 [main] ERROR com.otakmager.keywords.ValidationKeyword - Element NOT FOUND: Item Data
+2025-06-29 21:53:00 [main] INFO  com.otakmager.utils.RetryAnalyzer - Retrying test viewDetailDataShouldSucceed with status FAILURE for the 2 time(s).
+2025-06-29 21:53:00 [main] INFO  com.otakmager.utils.SuiteListener - Screenshot captured for failed test: viewDetailDataShouldSucceed
+2025-06-29 21:53:00 [main] INFO  com.otakmager.utils.SuiteListener - Screenshot saved at: E:\Project\QA_quality_assurance\appium-project\AppiumHitorMobileTest\screenshots\viewDetailDataShouldSucceed
+2025-06-29 21:53:00 [main] ERROR com.otakmager.base.BaseTest - TEST RESULT: com.otakmager.testCases.flow.ViewDetailDataFlowTest.viewDetailDataShouldSucceed FAILED
+2025-06-29 21:53:00 [main] INFO  com.otakmager.base.BaseTest - 
+================== END TEST: com.otakmager.testCases.flow.ViewDetailDataFlowTest.viewDetailDataShouldSucceed ==================
+
+2025-06-29 21:53:01 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver quit successfully
+2025-06-29 21:55:36 [main] INFO  com.otakmager.utils.DriverFactory - Starting AndroidDriver initialization with useApkFile: false
+2025-06-29 21:55:36 [main] INFO  com.otakmager.utils.ConfigReader - Loaded config.properties successfully
+2025-06-29 21:55:36 [main] INFO  com.otakmager.utils.DriverFactory - Using App Package: com.otakmager.traffic_records, App Activity: com.otakmager.traffic_records.MainActivity
+2025-06-29 21:55:43 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver initialized successfully
+2025-06-29 21:55:43 [main] INFO  com.otakmager.base.BaseTest - 
+
+================== START TEST: CreateDataFlowTest.createDataShouldSucceed ==================
+
+2025-06-29 21:55:44 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu Pengamatan
+2025-06-29 21:55:44 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Menu Pengamatan
+2025-06-29 21:55:44 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu Jalan Raya
+2025-06-29 21:55:45 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Menu Jalan Raya
+2025-06-29 21:55:46 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu 5 Tipe
+2025-06-29 21:55:56 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Menu 5 Tipe
+2025-06-29 21:56:46 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Counter: Motor
+2025-06-29 21:57:36 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Counter: Motor
+2025-06-29 21:58:17 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: App Bar Finish Button
+2025-06-29 21:58:18 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Alert Dialog Yes Button
+2025-06-29 21:58:18 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Optional Data Header
+2025-06-29 21:58:19 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Field Pengamat
+2025-06-29 21:58:19 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Field Lokasi
+2025-06-29 21:58:19 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Field Keterangan
+2025-06-29 21:58:21 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Field Pengamat
+2025-06-29 21:58:21 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Field Pengamat
+2025-06-29 21:58:21 [main] INFO  com.otakmager.keywords.ActionKeyword - Sent keys 'Dimas' to element: Field Pengamat
+2025-06-29 21:58:25 [main] INFO  com.otakmager.keywords.ActionKeyword - Keyboard successfully hidden
+2025-06-29 21:58:26 [main] INFO  com.otakmager.keywords.ActionKeyword - Element 'Field Lokasi' found after 0 swipe(s)
+2025-06-29 21:58:27 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Field Lokasi
+2025-06-29 21:58:27 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Field Lokasi
+2025-06-29 21:58:27 [main] INFO  com.otakmager.keywords.ActionKeyword - Sent keys 'Surakarta, Central Java, Indonesia' to element: Field Lokasi
+2025-06-29 21:58:32 [main] INFO  com.otakmager.keywords.ActionKeyword - Keyboard successfully hidden
+2025-06-29 21:58:32 [main] INFO  com.otakmager.keywords.ActionKeyword - Element 'Field Keterangan' found after 0 swipe(s)
+2025-06-29 21:58:33 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Field Keterangan
+2025-06-29 21:58:33 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Field Keterangan
+2025-06-29 21:58:33 [main] INFO  com.otakmager.keywords.ActionKeyword - Sent keys 'Weather clear, vehicle count stable' to element: Field Keterangan
+2025-06-29 21:58:37 [main] INFO  com.otakmager.keywords.ActionKeyword - Keyboard successfully hidden
+2025-06-29 21:58:38 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: App Bar Save Button
+2025-06-29 21:58:38 [main] INFO  com.otakmager.base.BaseTest - TEST RESULT: com.otakmager.testCases.flow.CreateDataFlowTest.createDataShouldSucceed PASSED
+2025-06-29 21:58:38 [main] INFO  com.otakmager.base.BaseTest - 
+================== END TEST: com.otakmager.testCases.flow.CreateDataFlowTest.createDataShouldSucceed ==================
+
+2025-06-29 21:58:38 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver quit successfully
+2025-06-29 21:58:38 [main] INFO  com.otakmager.utils.DriverFactory - Starting AndroidDriver initialization with useApkFile: false
+2025-06-29 21:58:38 [main] INFO  com.otakmager.utils.DriverFactory - Using App Package: com.otakmager.traffic_records, App Activity: com.otakmager.traffic_records.MainActivity
+2025-06-29 21:58:43 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver initialized successfully
+2025-06-29 21:58:43 [main] INFO  com.otakmager.base.BaseTest - 
+
+================== START TEST: ViewDetailDataFlowTest.viewDetailDataShouldSucceed ==================
+
+2025-06-29 21:58:44 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu Riwayat
+2025-06-29 21:58:44 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Menu Riwayat
+2025-06-29 21:58:45 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Item Data
+2025-06-29 21:58:46 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Item Data
+2025-06-29 21:58:46 [main] INFO  com.otakmager.keywords.ActionKeyword - Retrieved text 'Detail' from element: App Bar Title
+2025-06-29 21:58:46 [main] INFO  com.otakmager.keywords.ValidationKeyword - Validation passed: expected 'Detail' and found 'Detail'
+2025-06-29 21:58:46 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: App Bar Back Button
+2025-06-29 21:58:46 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Summary Result
+2025-06-29 21:58:46 [main] INFO  com.otakmager.keywords.ActionKeyword - Element 'Additional Info' found after 0 swipe(s)
+2025-06-29 21:58:47 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Additional Info
+2025-06-29 21:58:47 [main] INFO  com.otakmager.keywords.ActionKeyword - Element 'Summary Record' found after 0 swipe(s)
+2025-06-29 21:58:47 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Summary Record
+2025-06-29 21:58:48 [main] INFO  com.otakmager.keywords.ActionKeyword - Swiped down on element: Summary Record (50%)
+2025-06-29 21:58:48 [main] INFO  com.otakmager.keywords.ActionKeyword - Swiped down on element: Summary Record (50%)
+2025-06-29 21:58:49 [main] INFO  com.otakmager.keywords.ActionKeyword - Swiped down on element: Summary Record (50%)
+2025-06-29 21:58:51 [main] INFO  com.otakmager.keywords.ActionKeyword - Swiped down on element: Summary Record (50%)
+2025-06-29 21:58:52 [main] INFO  com.otakmager.keywords.ActionKeyword - Swiped down on element: Summary Record (50%)
+2025-06-29 21:58:52 [main] ERROR com.otakmager.keywords.ActionKeyword - Failed to find element 'Total Vehicles' after 5 swipe(s) in direction 'down'
+2025-06-29 21:58:52 [main] INFO  com.otakmager.utils.RetryAnalyzer - Retrying test viewDetailDataShouldSucceed with status FAILURE for the 1 time(s).
+2025-06-29 21:58:52 [main] WARN  com.otakmager.base.BaseTest - TEST RESULT: com.otakmager.testCases.flow.ViewDetailDataFlowTest.viewDetailDataShouldSucceed SKIPPED
+2025-06-29 21:58:52 [main] INFO  com.otakmager.base.BaseTest - 
+================== END TEST: com.otakmager.testCases.flow.ViewDetailDataFlowTest.viewDetailDataShouldSucceed ==================
+
+2025-06-29 21:58:52 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver quit successfully
+2025-06-29 21:58:52 [main] INFO  com.otakmager.utils.DriverFactory - Starting AndroidDriver initialization with useApkFile: false
+2025-06-29 21:58:52 [main] INFO  com.otakmager.utils.DriverFactory - Using App Package: com.otakmager.traffic_records, App Activity: com.otakmager.traffic_records.MainActivity
+2025-06-29 21:58:57 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver initialized successfully
+2025-06-29 21:58:57 [main] INFO  com.otakmager.base.BaseTest - 
+
+================== START TEST: ViewDetailDataFlowTest.viewDetailDataShouldSucceed ==================
+
+2025-06-29 21:58:57 [main] ERROR com.otakmager.keywords.ValidationKeyword - Element NOT FOUND: Menu Riwayat
+2025-06-29 21:58:57 [main] INFO  com.otakmager.utils.RetryAnalyzer - Retrying test viewDetailDataShouldSucceed with status FAILURE for the 2 time(s).
+2025-06-29 21:58:59 [main] INFO  com.otakmager.utils.SuiteListener - Screenshot captured for failed test: viewDetailDataShouldSucceed
+2025-06-29 21:58:59 [main] INFO  com.otakmager.utils.SuiteListener - Screenshot saved at: E:\Project\QA_quality_assurance\appium-project\AppiumHitorMobileTest\screenshots\viewDetailDataShouldSucceed
+2025-06-29 21:58:59 [main] ERROR com.otakmager.base.BaseTest - TEST RESULT: com.otakmager.testCases.flow.ViewDetailDataFlowTest.viewDetailDataShouldSucceed FAILED
+2025-06-29 21:58:59 [main] INFO  com.otakmager.base.BaseTest - 
+================== END TEST: com.otakmager.testCases.flow.ViewDetailDataFlowTest.viewDetailDataShouldSucceed ==================
+
+2025-06-29 22:11:03 [main] INFO  com.otakmager.utils.DriverFactory - Starting AndroidDriver initialization with useApkFile: false
+2025-06-29 22:11:03 [main] INFO  com.otakmager.utils.ConfigReader - Loaded config.properties successfully
+2025-06-29 22:11:03 [main] INFO  com.otakmager.utils.DriverFactory - Using App Package: com.otakmager.traffic_records, App Activity: com.otakmager.traffic_records.MainActivity
+2025-06-29 22:11:10 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver initialized successfully
+2025-06-29 22:11:10 [main] INFO  com.otakmager.base.BaseTest - 
+
+================== START TEST: ViewDetailDataFlowTest.viewDetailDataShouldSucceed ==================
+
+2025-06-29 22:11:10 [main] ERROR com.otakmager.keywords.ValidationKeyword - Element NOT FOUND: Menu Riwayat
+2025-06-29 22:11:10 [main] INFO  com.otakmager.utils.RetryAnalyzer - Retrying test viewDetailDataShouldSucceed with status FAILURE for the 1 time(s).
+2025-06-29 22:11:10 [main] WARN  com.otakmager.base.BaseTest - TEST RESULT: com.otakmager.testCases.flow.ViewDetailDataFlowTest.viewDetailDataShouldSucceed SKIPPED
+2025-06-29 22:11:10 [main] INFO  com.otakmager.base.BaseTest - 
+================== END TEST: com.otakmager.testCases.flow.ViewDetailDataFlowTest.viewDetailDataShouldSucceed ==================
+
+2025-06-29 22:11:11 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver quit successfully
+2025-06-29 22:11:11 [main] INFO  com.otakmager.utils.DriverFactory - Starting AndroidDriver initialization with useApkFile: false
+2025-06-29 22:11:11 [main] INFO  com.otakmager.utils.DriverFactory - Using App Package: com.otakmager.traffic_records, App Activity: com.otakmager.traffic_records.MainActivity
+2025-06-29 22:11:16 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver initialized successfully
+2025-06-29 22:11:16 [main] INFO  com.otakmager.base.BaseTest - 
+
+================== START TEST: ViewDetailDataFlowTest.viewDetailDataShouldSucceed ==================
+
+2025-06-29 22:11:16 [main] ERROR com.otakmager.keywords.ValidationKeyword - Element NOT FOUND: Menu Riwayat
+2025-06-29 22:11:16 [main] INFO  com.otakmager.utils.RetryAnalyzer - Retrying test viewDetailDataShouldSucceed with status FAILURE for the 2 time(s).
+2025-06-29 22:11:17 [main] INFO  com.otakmager.utils.SuiteListener - Screenshot captured for failed test: viewDetailDataShouldSucceed
+2025-06-29 22:11:17 [main] INFO  com.otakmager.utils.SuiteListener - Screenshot saved at: E:\Project\QA_quality_assurance\appium-project\AppiumHitorMobileTest\screenshots\viewDetailDataShouldSucceed
+2025-06-29 22:11:17 [main] ERROR com.otakmager.base.BaseTest - TEST RESULT: com.otakmager.testCases.flow.ViewDetailDataFlowTest.viewDetailDataShouldSucceed FAILED
+2025-06-29 22:11:17 [main] INFO  com.otakmager.base.BaseTest - 
+================== END TEST: com.otakmager.testCases.flow.ViewDetailDataFlowTest.viewDetailDataShouldSucceed ==================
+
+2025-06-29 22:11:18 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver quit successfully
+2025-06-29 22:12:23 [main] INFO  com.otakmager.utils.DriverFactory - Starting AndroidDriver initialization with useApkFile: false
+2025-06-29 22:12:23 [main] INFO  com.otakmager.utils.ConfigReader - Loaded config.properties successfully
+2025-06-29 22:12:23 [main] INFO  com.otakmager.utils.DriverFactory - Using App Package: com.otakmager.traffic_records, App Activity: com.otakmager.traffic_records.MainActivity
+2025-06-29 22:12:30 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver initialized successfully
+2025-06-29 22:12:30 [main] INFO  com.otakmager.base.BaseTest - 
+
+================== START TEST: ViewDetailDataFlowTest.viewDetailDataShouldSucceed ==================
+
+2025-06-29 22:12:31 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu Riwayat
+2025-06-29 22:12:31 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Menu Riwayat
+2025-06-29 22:12:32 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Item Data
+2025-06-29 22:12:32 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Item Data
+2025-06-29 22:12:32 [main] INFO  com.otakmager.keywords.ActionKeyword - Retrieved text 'Detail' from element: App Bar Title
+2025-06-29 22:12:32 [main] INFO  com.otakmager.keywords.ValidationKeyword - Validation passed: expected 'Detail' and found 'Detail'
+2025-06-29 22:12:32 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: App Bar Back Button
+2025-06-29 22:12:33 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Summary Result
+2025-06-29 22:12:33 [main] INFO  com.otakmager.keywords.ActionKeyword - Element 'Additional Info' found after 0 swipe(s)
+2025-06-29 22:12:33 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Additional Info
+2025-06-29 22:12:33 [main] INFO  com.otakmager.keywords.ActionKeyword - Element 'Summary Record' found after 0 swipe(s)
+2025-06-29 22:12:33 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Summary Record
+2025-06-29 22:12:34 [main] INFO  com.otakmager.keywords.ActionKeyword - Swiped down on element: Summary Record (50%)
+2025-06-29 22:12:35 [main] ERROR com.otakmager.keywords.ActionKeyword - Failed to swipe down on element: Summary Record. Error: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [b1c0b03d-681b-40a1-95b2-7da5f036bd3e, findElement {using=-android uiautomator, value=new UiSelector().descriptionContains("Hasil Pengamatan")}]
+Capabilities {appium:appActivity: com.otakmager.traffic_recor..., appium:appPackage: com.otakmager.traffic_records, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.otakmager.traffic_recor..., appPackage: com.otakmager.traffic_records, automationName: UiAutomator2, deviceName: 075872522F001494, newCommandTimeout: 60, noReset: true, platformName: ANDROID, platformVersion: 11}, appium:deviceApiLevel: 30, appium:deviceManufacturer: INFINIX MOBILITY LIMITED, appium:deviceModel: Infinix X663B, appium:deviceName: 075872522F001494, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: 075872522F001494, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 60, appium:noReset: true, appium:pixelRatio: 3, appium:platformVersion: 11, appium:statBarHeight: 108, appium:takesScreenshot: true, appium:viewportRect: {height: 2292, left: 0, top: 108, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: b1c0b03d-681b-40a1-95b2-7da5f036bd3e
+2025-06-29 22:12:35 [main] INFO  com.otakmager.utils.RetryAnalyzer - Retrying test viewDetailDataShouldSucceed with status FAILURE for the 1 time(s).
+2025-06-29 22:12:35 [main] WARN  com.otakmager.base.BaseTest - TEST RESULT: com.otakmager.testCases.flow.ViewDetailDataFlowTest.viewDetailDataShouldSucceed SKIPPED
+2025-06-29 22:12:35 [main] INFO  com.otakmager.base.BaseTest - 
+================== END TEST: com.otakmager.testCases.flow.ViewDetailDataFlowTest.viewDetailDataShouldSucceed ==================
+
+2025-06-29 22:12:35 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver quit successfully
+2025-06-29 22:12:35 [main] INFO  com.otakmager.utils.DriverFactory - Starting AndroidDriver initialization with useApkFile: false
+2025-06-29 22:12:35 [main] INFO  com.otakmager.utils.DriverFactory - Using App Package: com.otakmager.traffic_records, App Activity: com.otakmager.traffic_records.MainActivity
+2025-06-29 22:12:40 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver initialized successfully
+2025-06-29 22:12:40 [main] INFO  com.otakmager.base.BaseTest - 
+
+================== START TEST: ViewDetailDataFlowTest.viewDetailDataShouldSucceed ==================
+
+2025-06-29 22:12:41 [main] ERROR com.otakmager.keywords.ValidationKeyword - Element NOT FOUND: Menu Riwayat
+2025-06-29 22:12:41 [main] INFO  com.otakmager.utils.RetryAnalyzer - Retrying test viewDetailDataShouldSucceed with status FAILURE for the 2 time(s).
+2025-06-29 22:12:44 [main] INFO  com.otakmager.utils.SuiteListener - Screenshot captured for failed test: viewDetailDataShouldSucceed
+2025-06-29 22:12:44 [main] INFO  com.otakmager.utils.SuiteListener - Screenshot saved at: E:\Project\QA_quality_assurance\appium-project\AppiumHitorMobileTest\screenshots\viewDetailDataShouldSucceed
+2025-06-29 22:12:44 [main] ERROR com.otakmager.base.BaseTest - TEST RESULT: com.otakmager.testCases.flow.ViewDetailDataFlowTest.viewDetailDataShouldSucceed FAILED
+2025-06-29 22:12:44 [main] INFO  com.otakmager.base.BaseTest - 
+================== END TEST: com.otakmager.testCases.flow.ViewDetailDataFlowTest.viewDetailDataShouldSucceed ==================
+
+2025-06-29 22:12:45 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver quit successfully
+2025-06-30 08:47:14 [main] INFO  com.otakmager.utils.DriverFactory - Starting AndroidDriver initialization with useApkFile: false
+2025-06-30 08:47:14 [main] INFO  com.otakmager.utils.ConfigReader - Loaded config.properties successfully
+2025-06-30 08:47:15 [main] INFO  com.otakmager.utils.DriverFactory - Using App Package: com.otakmager.traffic_records, App Activity: com.otakmager.traffic_records.MainActivity
+2025-06-30 08:47:35 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver initialized successfully
+2025-06-30 08:47:36 [main] INFO  com.otakmager.base.BaseTest - 
+
+================== START TEST: ViewDetailDataFlowTest.viewDetailDataShouldSucceed ==================
+
+2025-06-30 08:47:36 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu Riwayat
+2025-06-30 08:47:37 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Menu Riwayat
+2025-06-30 08:47:37 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Item Data
+2025-06-30 08:47:38 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Item Data
+2025-06-30 08:47:38 [main] INFO  com.otakmager.keywords.ActionKeyword - Retrieved text 'Detail' from element: App Bar Title
+2025-06-30 08:47:38 [main] INFO  com.otakmager.keywords.ValidationKeyword - Validation passed: expected 'Detail' and found 'Detail'
+2025-06-30 08:47:38 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: App Bar Back Button
+2025-06-30 08:47:39 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Summary Result
+2025-06-30 08:47:39 [main] INFO  com.otakmager.keywords.ActionKeyword - Element 'Additional Info' found after 0 swipe(s)
+2025-06-30 08:47:39 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Additional Info
+2025-06-30 08:47:39 [main] INFO  com.otakmager.keywords.ActionKeyword - Element 'Summary Record' found after 0 swipe(s)
+2025-06-30 08:47:39 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Summary Record
+2025-06-30 08:47:40 [main] INFO  com.otakmager.keywords.ActionKeyword - Swiped finger 'up' on element 'Summary Record' (50%) → content scroll down (finger swipe up)
+2025-06-30 08:47:41 [main] ERROR com.otakmager.keywords.ActionKeyword - Failed to swipe up on element: Summary Record. Error: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [0f459524-e80d-49f6-b088-be3245488a9f, findElement {value=new UiSelector().descriptionContains("Hasil Pengamatan"), using=-android uiautomator}]
+Capabilities {appium:appActivity: com.otakmager.traffic_recor..., appium:appPackage: com.otakmager.traffic_records, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.otakmager.traffic_recor..., appPackage: com.otakmager.traffic_records, automationName: UiAutomator2, deviceName: 075872522F001494, newCommandTimeout: 60, noReset: true, platformName: ANDROID, platformVersion: 11}, appium:deviceApiLevel: 30, appium:deviceManufacturer: INFINIX MOBILITY LIMITED, appium:deviceModel: Infinix X663B, appium:deviceName: 075872522F001494, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: 075872522F001494, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 60, appium:noReset: true, appium:pixelRatio: 3, appium:platformVersion: 11, appium:statBarHeight: 108, appium:takesScreenshot: true, appium:viewportRect: {height: 2292, left: 0, top: 108, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 0f459524-e80d-49f6-b088-be3245488a9f
+2025-06-30 08:47:41 [main] INFO  com.otakmager.utils.RetryAnalyzer - Retrying test viewDetailDataShouldSucceed with status FAILURE for the 1 time(s).
+2025-06-30 08:47:41 [main] WARN  com.otakmager.base.BaseTest - TEST RESULT: com.otakmager.testCases.flow.ViewDetailDataFlowTest.viewDetailDataShouldSucceed SKIPPED
+2025-06-30 08:47:41 [main] INFO  com.otakmager.base.BaseTest - 
+================== END TEST: com.otakmager.testCases.flow.ViewDetailDataFlowTest.viewDetailDataShouldSucceed ==================
+
+2025-06-30 08:47:42 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver quit successfully
+2025-06-30 08:47:42 [main] INFO  com.otakmager.utils.DriverFactory - Starting AndroidDriver initialization with useApkFile: false
+2025-06-30 08:47:42 [main] INFO  com.otakmager.utils.DriverFactory - Using App Package: com.otakmager.traffic_records, App Activity: com.otakmager.traffic_records.MainActivity
+2025-06-30 08:47:49 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver initialized successfully
+2025-06-30 08:47:49 [main] INFO  com.otakmager.base.BaseTest - 
+
+================== START TEST: ViewDetailDataFlowTest.viewDetailDataShouldSucceed ==================
+
+2025-06-30 08:47:49 [main] ERROR com.otakmager.keywords.ValidationKeyword - Element NOT FOUND: Menu Riwayat
+2025-06-30 08:47:49 [main] INFO  com.otakmager.utils.RetryAnalyzer - Retrying test viewDetailDataShouldSucceed with status FAILURE for the 2 time(s).
+2025-06-30 08:47:53 [main] INFO  com.otakmager.utils.SuiteListener - Screenshot captured for failed test: viewDetailDataShouldSucceed
+2025-06-30 08:47:53 [main] INFO  com.otakmager.utils.SuiteListener - Screenshot saved at: E:\Project\QA_quality_assurance\appium-project\AppiumHitorMobileTest\screenshots\viewDetailDataShouldSucceed
+2025-06-30 08:47:53 [main] ERROR com.otakmager.base.BaseTest - TEST RESULT: com.otakmager.testCases.flow.ViewDetailDataFlowTest.viewDetailDataShouldSucceed FAILED
+2025-06-30 08:47:53 [main] INFO  com.otakmager.base.BaseTest - 
+================== END TEST: com.otakmager.testCases.flow.ViewDetailDataFlowTest.viewDetailDataShouldSucceed ==================
+
+2025-06-30 08:47:54 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver quit successfully
+2025-06-30 09:18:27 [main] INFO  com.otakmager.utils.DriverFactory - Starting AndroidDriver initialization with useApkFile: false
+2025-06-30 09:18:27 [main] INFO  com.otakmager.utils.ConfigReader - Loaded config.properties successfully
+2025-06-30 09:18:27 [main] INFO  com.otakmager.utils.DriverFactory - Using App Package: com.otakmager.traffic_records, App Activity: com.otakmager.traffic_records.MainActivity
+2025-06-30 09:18:38 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver initialized successfully
+2025-06-30 09:18:38 [main] INFO  com.otakmager.base.BaseTest - 
+
+================== START TEST: ViewDetailDataFlowTest.viewDetailDataShouldSucceed ==================
+
+2025-06-30 09:18:39 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu Riwayat
+2025-06-30 09:18:40 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Menu Riwayat
+2025-06-30 09:18:40 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Item Data
+2025-06-30 09:18:41 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Item Data
+2025-06-30 09:18:41 [main] INFO  com.otakmager.keywords.ActionKeyword - Retrieved text 'Detail' from element: App Bar Title
+2025-06-30 09:18:41 [main] INFO  com.otakmager.keywords.ValidationKeyword - Validation passed: expected 'Detail' and found 'Detail'
+2025-06-30 09:18:41 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: App Bar Back Button
+2025-06-30 09:18:41 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Summary Result
+2025-06-30 09:18:41 [main] INFO  com.otakmager.keywords.ActionKeyword - Element 'Additional Info' found after 0 swipe(s)
+2025-06-30 09:18:41 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Additional Info
+2025-06-30 09:18:41 [main] INFO  com.otakmager.keywords.ActionKeyword - Element 'Summary Record' found after 0 swipe(s)
+2025-06-30 09:18:42 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Summary Record
+2025-06-30 09:18:43 [main] INFO  com.otakmager.keywords.ActionKeyword - Swiped finger 'up' on element 'Summary Record' (50%) → content scroll down (finger swipe up)
+2025-06-30 09:18:44 [main] ERROR com.otakmager.keywords.ActionKeyword - Failed to swipe up on element: Summary Record. Error: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [b8334e01-7e6f-49f3-add0-9ad0b965c50a, findElement {using=-android uiautomator, value=new UiSelector().descriptionContains("Hasil Pengamatan")}]
+Capabilities {appium:appActivity: com.otakmager.traffic_recor..., appium:appPackage: com.otakmager.traffic_records, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.otakmager.traffic_recor..., appPackage: com.otakmager.traffic_records, automationName: UiAutomator2, deviceName: 075872522F001494, newCommandTimeout: 60, noReset: true, platformName: ANDROID, platformVersion: 11}, appium:deviceApiLevel: 30, appium:deviceManufacturer: INFINIX MOBILITY LIMITED, appium:deviceModel: Infinix X663B, appium:deviceName: 075872522F001494, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: 075872522F001494, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 60, appium:noReset: true, appium:pixelRatio: 3, appium:platformVersion: 11, appium:statBarHeight: 108, appium:takesScreenshot: true, appium:viewportRect: {height: 2292, left: 0, top: 108, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: b8334e01-7e6f-49f3-add0-9ad0b965c50a
+2025-06-30 09:18:44 [main] INFO  com.otakmager.utils.RetryAnalyzer - Retrying test viewDetailDataShouldSucceed with status FAILURE for the 1 time(s).
+2025-06-30 09:18:44 [main] WARN  com.otakmager.base.BaseTest - TEST RESULT: com.otakmager.testCases.flow.ViewDetailDataFlowTest.viewDetailDataShouldSucceed SKIPPED
+2025-06-30 09:18:44 [main] INFO  com.otakmager.base.BaseTest - 
+================== END TEST: com.otakmager.testCases.flow.ViewDetailDataFlowTest.viewDetailDataShouldSucceed ==================
+
+2025-06-30 09:18:45 [main] INFO  com.otakmager.utils.DriverFactory - Terminated app: com.otakmager.traffic_records
+2025-06-30 09:18:46 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver quit successfully
+2025-06-30 09:18:46 [main] INFO  com.otakmager.utils.DriverFactory - Starting AndroidDriver initialization with useApkFile: false
+2025-06-30 09:18:46 [main] INFO  com.otakmager.utils.DriverFactory - Using App Package: com.otakmager.traffic_records, App Activity: com.otakmager.traffic_records.MainActivity
+2025-06-30 09:18:52 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver initialized successfully
+2025-06-30 09:18:52 [main] INFO  com.otakmager.base.BaseTest - 
+
+================== START TEST: ViewDetailDataFlowTest.viewDetailDataShouldSucceed ==================
+
+2025-06-30 09:18:53 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu Riwayat
+2025-06-30 09:18:53 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Menu Riwayat
+2025-06-30 09:18:53 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Item Data
+2025-06-30 09:18:54 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Item Data
+2025-06-30 09:18:54 [main] INFO  com.otakmager.keywords.ActionKeyword - Retrieved text 'Detail' from element: App Bar Title
+2025-06-30 09:18:54 [main] INFO  com.otakmager.keywords.ValidationKeyword - Validation passed: expected 'Detail' and found 'Detail'
+2025-06-30 09:18:54 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: App Bar Back Button
+2025-06-30 09:18:54 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Summary Result
+2025-06-30 09:18:55 [main] INFO  com.otakmager.keywords.ActionKeyword - Element 'Additional Info' found after 0 swipe(s)
+2025-06-30 09:18:55 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Additional Info
+2025-06-30 09:18:55 [main] INFO  com.otakmager.keywords.ActionKeyword - Element 'Summary Record' found after 0 swipe(s)
+2025-06-30 09:18:55 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Summary Record
+2025-06-30 09:18:56 [main] INFO  com.otakmager.keywords.ActionKeyword - Swiped finger 'up' on element 'Summary Record' (50%) → content scroll down (finger swipe up)
+2025-06-30 09:18:56 [main] ERROR com.otakmager.keywords.ActionKeyword - Failed to swipe up on element: Summary Record. Error: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [62cb4465-6c6f-483f-abbb-43a068c7e283, findElement {using=-android uiautomator, value=new UiSelector().descriptionContains("Hasil Pengamatan")}]
+Capabilities {appium:appActivity: com.otakmager.traffic_recor..., appium:appPackage: com.otakmager.traffic_records, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.otakmager.traffic_recor..., appPackage: com.otakmager.traffic_records, automationName: UiAutomator2, deviceName: 075872522F001494, newCommandTimeout: 60, noReset: true, platformName: ANDROID, platformVersion: 11}, appium:deviceApiLevel: 30, appium:deviceManufacturer: INFINIX MOBILITY LIMITED, appium:deviceModel: Infinix X663B, appium:deviceName: 075872522F001494, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: 075872522F001494, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 60, appium:noReset: true, appium:pixelRatio: 3, appium:platformVersion: 11, appium:statBarHeight: 108, appium:takesScreenshot: true, appium:viewportRect: {height: 2292, left: 0, top: 108, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 62cb4465-6c6f-483f-abbb-43a068c7e283
+2025-06-30 09:18:56 [main] INFO  com.otakmager.utils.RetryAnalyzer - Retrying test viewDetailDataShouldSucceed with status FAILURE for the 2 time(s).
+2025-06-30 09:18:58 [main] INFO  com.otakmager.utils.SuiteListener - Screenshot captured for failed test: viewDetailDataShouldSucceed
+2025-06-30 09:18:58 [main] INFO  com.otakmager.utils.SuiteListener - Screenshot saved at: E:\Project\QA_quality_assurance\appium-project\AppiumHitorMobileTest\screenshots\viewDetailDataShouldSucceed
+2025-06-30 09:18:58 [main] ERROR com.otakmager.base.BaseTest - TEST RESULT: com.otakmager.testCases.flow.ViewDetailDataFlowTest.viewDetailDataShouldSucceed FAILED
+2025-06-30 09:18:58 [main] INFO  com.otakmager.base.BaseTest - 
+================== END TEST: com.otakmager.testCases.flow.ViewDetailDataFlowTest.viewDetailDataShouldSucceed ==================
+
+2025-06-30 09:18:58 [main] INFO  com.otakmager.utils.DriverFactory - Terminated app: com.otakmager.traffic_records
+2025-06-30 09:18:59 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver quit successfully
+2025-06-30 10:10:34 [main] INFO  com.otakmager.utils.DriverFactory - Starting AndroidDriver initialization with useApkFile: false
+2025-06-30 10:10:34 [main] INFO  com.otakmager.utils.ConfigReader - Loaded config.properties successfully
+2025-06-30 10:10:34 [main] INFO  com.otakmager.utils.DriverFactory - Using App Package: com.otakmager.traffic_records, App Activity: com.otakmager.traffic_records.MainActivity
+2025-06-30 10:10:47 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver initialized successfully
+2025-06-30 10:10:47 [main] INFO  com.otakmager.base.BaseTest - 
+
+================== START TEST: ViewDetailDataFlowTest.viewDetailDataShouldSucceed ==================
+
+2025-06-30 10:10:48 [main] ERROR com.otakmager.keywords.ValidationKeyword - Element NOT FOUND: Menu Riwayat
+2025-06-30 10:10:48 [main] INFO  com.otakmager.utils.RetryAnalyzer - Retrying test viewDetailDataShouldSucceed with status FAILURE for the 1 time(s).
+2025-06-30 10:10:48 [main] WARN  com.otakmager.base.BaseTest - TEST RESULT: com.otakmager.testCases.flow.ViewDetailDataFlowTest.viewDetailDataShouldSucceed SKIPPED
+2025-06-30 10:10:48 [main] INFO  com.otakmager.base.BaseTest - 
+================== END TEST: com.otakmager.testCases.flow.ViewDetailDataFlowTest.viewDetailDataShouldSucceed ==================
+
+2025-06-30 10:10:48 [main] INFO  com.otakmager.utils.DriverFactory - Terminated app: com.otakmager.traffic_records
+2025-06-30 10:10:49 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver quit successfully
+2025-06-30 10:10:49 [main] INFO  com.otakmager.utils.DriverFactory - Starting AndroidDriver initialization with useApkFile: false
+2025-06-30 10:10:49 [main] INFO  com.otakmager.utils.DriverFactory - Using App Package: com.otakmager.traffic_records, App Activity: com.otakmager.traffic_records.MainActivity
+2025-06-30 10:10:56 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver initialized successfully
+2025-06-30 10:10:56 [main] INFO  com.otakmager.base.BaseTest - 
+
+================== START TEST: ViewDetailDataFlowTest.viewDetailDataShouldSucceed ==================
+
+2025-06-30 10:10:57 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu Riwayat
+2025-06-30 10:10:57 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Menu Riwayat
+2025-06-30 10:10:58 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Item Data
+2025-06-30 10:10:59 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Item Data
+2025-06-30 10:10:59 [main] INFO  com.otakmager.keywords.ActionKeyword - Retrieved text 'Detail' from element: App Bar Title
+2025-06-30 10:10:59 [main] INFO  com.otakmager.keywords.ValidationKeyword - Validation passed: expected 'Detail' and found 'Detail'
+2025-06-30 10:10:59 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: App Bar Back Button
+2025-06-30 10:10:59 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Summary Result
+2025-06-30 10:10:59 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Additional Info
+2025-06-30 10:10:59 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Summary Record
+2025-06-30 10:11:00 [main] INFO  com.otakmager.keywords.ActionKeyword - Swiped finger 'up' on element 'Summary Record' (50%) → content scroll down (finger swipe up)
+2025-06-30 10:11:01 [main] ERROR com.otakmager.keywords.ActionKeyword - Failed to swipe up on element: Summary Record. Error: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [d0532256-0ffd-47a7-a667-d5d90451a38b, findElement {using=-android uiautomator, value=new UiSelector().descriptionContains("Hasil Pengamatan")}]
+Capabilities {appium:appActivity: com.otakmager.traffic_recor..., appium:appPackage: com.otakmager.traffic_records, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.otakmager.traffic_recor..., appPackage: com.otakmager.traffic_records, automationName: UiAutomator2, deviceName: 075872522F001494, newCommandTimeout: 60, noReset: true, platformName: ANDROID, platformVersion: 11}, appium:deviceApiLevel: 30, appium:deviceManufacturer: INFINIX MOBILITY LIMITED, appium:deviceModel: Infinix X663B, appium:deviceName: 075872522F001494, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: 075872522F001494, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 60, appium:noReset: true, appium:pixelRatio: 3, appium:platformVersion: 11, appium:statBarHeight: 108, appium:takesScreenshot: true, appium:viewportRect: {height: 2292, left: 0, top: 108, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: d0532256-0ffd-47a7-a667-d5d90451a38b
+2025-06-30 10:11:01 [main] INFO  com.otakmager.utils.RetryAnalyzer - Retrying test viewDetailDataShouldSucceed with status FAILURE for the 2 time(s).
+2025-06-30 10:11:04 [main] INFO  com.otakmager.utils.SuiteListener - Screenshot captured for failed test: viewDetailDataShouldSucceed
+2025-06-30 10:11:04 [main] INFO  com.otakmager.utils.SuiteListener - Screenshot saved at: E:\Project\QA_quality_assurance\appium-project\AppiumHitorMobileTest\screenshots\viewDetailDataShouldSucceed
+2025-06-30 10:11:04 [main] ERROR com.otakmager.base.BaseTest - TEST RESULT: com.otakmager.testCases.flow.ViewDetailDataFlowTest.viewDetailDataShouldSucceed FAILED
+2025-06-30 10:11:04 [main] INFO  com.otakmager.base.BaseTest - 
+================== END TEST: com.otakmager.testCases.flow.ViewDetailDataFlowTest.viewDetailDataShouldSucceed ==================
+
+2025-06-30 10:11:05 [main] INFO  com.otakmager.utils.DriverFactory - Terminated app: com.otakmager.traffic_records
+2025-06-30 10:11:06 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver quit successfully
+2025-06-30 10:13:26 [main] INFO  com.otakmager.utils.DriverFactory - Starting AndroidDriver initialization with useApkFile: false
+2025-06-30 10:13:26 [main] INFO  com.otakmager.utils.ConfigReader - Loaded config.properties successfully
+2025-06-30 10:13:27 [main] INFO  com.otakmager.utils.DriverFactory - Using App Package: com.otakmager.traffic_records, App Activity: com.otakmager.traffic_records.MainActivity
+2025-06-30 10:13:34 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver initialized successfully
+2025-06-30 10:13:34 [main] INFO  com.otakmager.base.BaseTest - 
+
+================== START TEST: ViewDetailDataFlowTest.viewDetailDataShouldSucceed ==================
+
+2025-06-30 10:13:34 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu Riwayat
+2025-06-30 10:13:35 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Menu Riwayat
+2025-06-30 10:13:35 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Item Data
+2025-06-30 10:13:36 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Item Data
+2025-06-30 10:13:36 [main] INFO  com.otakmager.keywords.ActionKeyword - Retrieved text 'Detail' from element: App Bar Title
+2025-06-30 10:13:36 [main] INFO  com.otakmager.keywords.ValidationKeyword - Validation passed: expected 'Detail' and found 'Detail'
+2025-06-30 10:13:36 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: App Bar Back Button
+2025-06-30 10:13:36 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Summary Result
+2025-06-30 10:13:37 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Additional Info
+2025-06-30 10:13:37 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Summary Record
+2025-06-30 10:13:38 [main] INFO  com.otakmager.keywords.ActionKeyword - Swiped finger 'up' on element 'Summary Record' (50%) → content scroll down (finger swipe up)
+2025-06-30 10:13:38 [main] ERROR com.otakmager.keywords.ActionKeyword - Failed to find element 'Total Vehicles' after 1 swipe(s) in direction 'up'
+2025-06-30 10:13:38 [main] INFO  com.otakmager.utils.RetryAnalyzer - Retrying test viewDetailDataShouldSucceed with status FAILURE for the 1 time(s).
+2025-06-30 10:13:38 [main] WARN  com.otakmager.base.BaseTest - TEST RESULT: com.otakmager.testCases.flow.ViewDetailDataFlowTest.viewDetailDataShouldSucceed SKIPPED
+2025-06-30 10:13:38 [main] INFO  com.otakmager.base.BaseTest - 
+================== END TEST: com.otakmager.testCases.flow.ViewDetailDataFlowTest.viewDetailDataShouldSucceed ==================
+
+2025-06-30 10:13:38 [main] INFO  com.otakmager.utils.DriverFactory - Terminated app: com.otakmager.traffic_records
+2025-06-30 10:13:40 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver quit successfully
+2025-06-30 10:13:40 [main] INFO  com.otakmager.utils.DriverFactory - Starting AndroidDriver initialization with useApkFile: false
+2025-06-30 10:13:40 [main] INFO  com.otakmager.utils.DriverFactory - Using App Package: com.otakmager.traffic_records, App Activity: com.otakmager.traffic_records.MainActivity
+2025-06-30 10:13:46 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver initialized successfully
+2025-06-30 10:13:46 [main] INFO  com.otakmager.base.BaseTest - 
+
+================== START TEST: ViewDetailDataFlowTest.viewDetailDataShouldSucceed ==================
+
+2025-06-30 10:13:46 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu Riwayat
+2025-06-30 10:13:47 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Menu Riwayat
+2025-06-30 10:13:47 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Item Data
+2025-06-30 10:13:48 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Item Data
+2025-06-30 10:13:48 [main] INFO  com.otakmager.keywords.ActionKeyword - Retrieved text 'Detail' from element: App Bar Title
+2025-06-30 10:13:48 [main] INFO  com.otakmager.keywords.ValidationKeyword - Validation passed: expected 'Detail' and found 'Detail'
+2025-06-30 10:13:48 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: App Bar Back Button
+2025-06-30 10:13:49 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Summary Result
+2025-06-30 10:13:49 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Additional Info
+2025-06-30 10:13:49 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Summary Record
+2025-06-30 10:13:50 [main] INFO  com.otakmager.keywords.ActionKeyword - Swiped finger 'up' on element 'Summary Record' (50%) → content scroll down (finger swipe up)
+2025-06-30 10:13:50 [main] ERROR com.otakmager.keywords.ActionKeyword - Failed to find element 'Total Vehicles' after 1 swipe(s) in direction 'up'
+2025-06-30 10:13:50 [main] INFO  com.otakmager.utils.RetryAnalyzer - Retrying test viewDetailDataShouldSucceed with status FAILURE for the 2 time(s).
+2025-06-30 10:13:51 [main] INFO  com.otakmager.utils.SuiteListener - Screenshot captured for failed test: viewDetailDataShouldSucceed
+2025-06-30 10:13:51 [main] INFO  com.otakmager.utils.SuiteListener - Screenshot saved at: E:\Project\QA_quality_assurance\appium-project\AppiumHitorMobileTest\screenshots\viewDetailDataShouldSucceed
+2025-06-30 10:13:51 [main] ERROR com.otakmager.base.BaseTest - TEST RESULT: com.otakmager.testCases.flow.ViewDetailDataFlowTest.viewDetailDataShouldSucceed FAILED
+2025-06-30 10:13:51 [main] INFO  com.otakmager.base.BaseTest - 
+================== END TEST: com.otakmager.testCases.flow.ViewDetailDataFlowTest.viewDetailDataShouldSucceed ==================
+
+2025-06-30 10:13:52 [main] INFO  com.otakmager.utils.DriverFactory - Terminated app: com.otakmager.traffic_records
+2025-06-30 10:13:52 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver quit successfully
+2025-06-30 10:15:53 [main] INFO  com.otakmager.utils.DriverFactory - Starting AndroidDriver initialization with useApkFile: false
+2025-06-30 10:15:53 [main] INFO  com.otakmager.utils.ConfigReader - Loaded config.properties successfully
+2025-06-30 10:15:53 [main] INFO  com.otakmager.utils.DriverFactory - Using App Package: com.otakmager.traffic_records, App Activity: com.otakmager.traffic_records.MainActivity
+2025-06-30 10:16:00 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver initialized successfully
+2025-06-30 10:16:00 [main] INFO  com.otakmager.base.BaseTest - 
+
+================== START TEST: ViewDetailDataFlowTest.viewDetailDataShouldSucceed ==================
+
+2025-06-30 10:16:01 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu Riwayat
+2025-06-30 10:16:01 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Menu Riwayat
+2025-06-30 10:16:02 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Item Data
+2025-06-30 10:16:02 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Item Data
+2025-06-30 10:16:02 [main] INFO  com.otakmager.keywords.ActionKeyword - Retrieved text 'Detail' from element: App Bar Title
+2025-06-30 10:16:02 [main] INFO  com.otakmager.keywords.ValidationKeyword - Validation passed: expected 'Detail' and found 'Detail'
+2025-06-30 10:16:03 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: App Bar Back Button
+2025-06-30 10:16:03 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Summary Result
+2025-06-30 10:16:03 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Additional Info
+2025-06-30 10:16:03 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Summary Record
+2025-06-30 10:16:04 [main] INFO  com.otakmager.keywords.ActionKeyword - Swiped finger 'up' on element 'Summary Record' (30%) → content scroll down (finger swipe up)
+2025-06-30 10:16:05 [main] ERROR com.otakmager.keywords.ValidationKeyword - Element NOT FOUND: Total Vehicles
+2025-06-30 10:16:05 [main] INFO  com.otakmager.utils.RetryAnalyzer - Retrying test viewDetailDataShouldSucceed with status FAILURE for the 1 time(s).
+2025-06-30 10:16:05 [main] WARN  com.otakmager.base.BaseTest - TEST RESULT: com.otakmager.testCases.flow.ViewDetailDataFlowTest.viewDetailDataShouldSucceed SKIPPED
+2025-06-30 10:16:05 [main] INFO  com.otakmager.base.BaseTest - 
+================== END TEST: com.otakmager.testCases.flow.ViewDetailDataFlowTest.viewDetailDataShouldSucceed ==================
+
+2025-06-30 10:16:06 [main] INFO  com.otakmager.utils.DriverFactory - Terminated app: com.otakmager.traffic_records
+2025-06-30 10:16:06 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver quit successfully
+2025-06-30 10:16:06 [main] INFO  com.otakmager.utils.DriverFactory - Starting AndroidDriver initialization with useApkFile: false
+2025-06-30 10:16:06 [main] INFO  com.otakmager.utils.DriverFactory - Using App Package: com.otakmager.traffic_records, App Activity: com.otakmager.traffic_records.MainActivity
+2025-06-30 10:16:13 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver initialized successfully
+2025-06-30 10:16:13 [main] INFO  com.otakmager.base.BaseTest - 
+
+================== START TEST: ViewDetailDataFlowTest.viewDetailDataShouldSucceed ==================
+
+2025-06-30 10:16:13 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu Riwayat
+2025-06-30 10:16:14 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Menu Riwayat
+2025-06-30 10:16:14 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Item Data
+2025-06-30 10:16:15 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Item Data
+2025-06-30 10:16:15 [main] INFO  com.otakmager.keywords.ActionKeyword - Retrieved text 'Detail' from element: App Bar Title
+2025-06-30 10:16:15 [main] INFO  com.otakmager.keywords.ValidationKeyword - Validation passed: expected 'Detail' and found 'Detail'
+2025-06-30 10:16:15 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: App Bar Back Button
+2025-06-30 10:16:15 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Summary Result
+2025-06-30 10:16:15 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Additional Info
+2025-06-30 10:16:15 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Summary Record
+2025-06-30 10:16:16 [main] INFO  com.otakmager.keywords.ActionKeyword - Swiped finger 'up' on element 'Summary Record' (30%) → content scroll down (finger swipe up)
+2025-06-30 10:16:17 [main] ERROR com.otakmager.keywords.ValidationKeyword - Element NOT FOUND: Total Vehicles
+2025-06-30 10:16:17 [main] INFO  com.otakmager.utils.RetryAnalyzer - Retrying test viewDetailDataShouldSucceed with status FAILURE for the 2 time(s).
+2025-06-30 10:16:18 [main] INFO  com.otakmager.utils.SuiteListener - Screenshot captured for failed test: viewDetailDataShouldSucceed
+2025-06-30 10:16:18 [main] INFO  com.otakmager.utils.SuiteListener - Screenshot saved at: E:\Project\QA_quality_assurance\appium-project\AppiumHitorMobileTest\screenshots\viewDetailDataShouldSucceed
+2025-06-30 10:16:18 [main] ERROR com.otakmager.base.BaseTest - TEST RESULT: com.otakmager.testCases.flow.ViewDetailDataFlowTest.viewDetailDataShouldSucceed FAILED
+2025-06-30 10:16:19 [main] INFO  com.otakmager.base.BaseTest - 
+================== END TEST: com.otakmager.testCases.flow.ViewDetailDataFlowTest.viewDetailDataShouldSucceed ==================
+
+2025-06-30 10:16:20 [main] INFO  com.otakmager.utils.DriverFactory - Terminated app: com.otakmager.traffic_records
+2025-06-30 10:16:21 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver quit successfully
+2025-06-30 10:17:17 [main] INFO  com.otakmager.utils.DriverFactory - Starting AndroidDriver initialization with useApkFile: false
+2025-06-30 10:17:17 [main] INFO  com.otakmager.utils.ConfigReader - Loaded config.properties successfully
+2025-06-30 10:17:17 [main] INFO  com.otakmager.utils.DriverFactory - Using App Package: com.otakmager.traffic_records, App Activity: com.otakmager.traffic_records.MainActivity
+2025-06-30 10:17:24 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver initialized successfully
+2025-06-30 10:17:24 [main] INFO  com.otakmager.base.BaseTest - 
+
+================== START TEST: ViewDetailDataFlowTest.viewDetailDataShouldSucceed ==================
+
+2025-06-30 10:17:24 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu Riwayat
+2025-06-30 10:17:25 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Menu Riwayat
+2025-06-30 10:17:25 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Item Data
+2025-06-30 10:17:26 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Item Data
+2025-06-30 10:17:26 [main] INFO  com.otakmager.keywords.ActionKeyword - Retrieved text 'Detail' from element: App Bar Title
+2025-06-30 10:17:26 [main] INFO  com.otakmager.keywords.ValidationKeyword - Validation passed: expected 'Detail' and found 'Detail'
+2025-06-30 10:17:26 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: App Bar Back Button
+2025-06-30 10:17:26 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Summary Result
+2025-06-30 10:17:26 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Additional Info
+2025-06-30 10:17:27 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Summary Record
+2025-06-30 10:17:27 [main] INFO  com.otakmager.keywords.ActionKeyword - Swiped finger 'up' on element 'Summary Record' (60%) → content scroll down (finger swipe up)
+2025-06-30 10:17:28 [main] ERROR com.otakmager.keywords.ValidationKeyword - Element NOT FOUND: Total Vehicles
+2025-06-30 10:17:28 [main] INFO  com.otakmager.utils.RetryAnalyzer - Retrying test viewDetailDataShouldSucceed with status FAILURE for the 1 time(s).
+2025-06-30 10:17:28 [main] WARN  com.otakmager.base.BaseTest - TEST RESULT: com.otakmager.testCases.flow.ViewDetailDataFlowTest.viewDetailDataShouldSucceed SKIPPED
+2025-06-30 10:17:28 [main] INFO  com.otakmager.base.BaseTest - 
+================== END TEST: com.otakmager.testCases.flow.ViewDetailDataFlowTest.viewDetailDataShouldSucceed ==================
+
+2025-06-30 10:17:29 [main] INFO  com.otakmager.utils.DriverFactory - Terminated app: com.otakmager.traffic_records
+2025-06-30 10:17:30 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver quit successfully
+2025-06-30 10:17:30 [main] INFO  com.otakmager.utils.DriverFactory - Starting AndroidDriver initialization with useApkFile: false
+2025-06-30 10:17:30 [main] INFO  com.otakmager.utils.DriverFactory - Using App Package: com.otakmager.traffic_records, App Activity: com.otakmager.traffic_records.MainActivity
+2025-06-30 10:17:36 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver initialized successfully
+2025-06-30 10:17:36 [main] INFO  com.otakmager.base.BaseTest - 
+
+================== START TEST: ViewDetailDataFlowTest.viewDetailDataShouldSucceed ==================
+
+2025-06-30 10:17:37 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu Riwayat
+2025-06-30 10:17:38 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Menu Riwayat
+2025-06-30 10:17:38 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Item Data
+2025-06-30 10:17:39 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Item Data
+2025-06-30 10:17:40 [main] INFO  com.otakmager.keywords.ActionKeyword - Retrieved text 'Detail' from element: App Bar Title
+2025-06-30 10:17:40 [main] INFO  com.otakmager.keywords.ValidationKeyword - Validation passed: expected 'Detail' and found 'Detail'
+2025-06-30 10:17:40 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: App Bar Back Button
+2025-06-30 10:17:40 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Summary Result
+2025-06-30 10:17:40 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Additional Info
+2025-06-30 10:17:40 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Summary Record
+2025-06-30 10:17:41 [main] INFO  com.otakmager.keywords.ActionKeyword - Swiped finger 'up' on element 'Summary Record' (60%) → content scroll down (finger swipe up)
+2025-06-30 10:17:42 [main] ERROR com.otakmager.keywords.ValidationKeyword - Element NOT FOUND: Total Vehicles
+2025-06-30 10:17:42 [main] INFO  com.otakmager.utils.RetryAnalyzer - Retrying test viewDetailDataShouldSucceed with status FAILURE for the 2 time(s).
+2025-06-30 10:17:42 [main] INFO  com.otakmager.utils.SuiteListener - Screenshot captured for failed test: viewDetailDataShouldSucceed
+2025-06-30 10:17:42 [main] INFO  com.otakmager.utils.SuiteListener - Screenshot saved at: E:\Project\QA_quality_assurance\appium-project\AppiumHitorMobileTest\screenshots\viewDetailDataShouldSucceed
+2025-06-30 10:17:42 [main] ERROR com.otakmager.base.BaseTest - TEST RESULT: com.otakmager.testCases.flow.ViewDetailDataFlowTest.viewDetailDataShouldSucceed FAILED
+2025-06-30 10:17:42 [main] INFO  com.otakmager.base.BaseTest - 
+================== END TEST: com.otakmager.testCases.flow.ViewDetailDataFlowTest.viewDetailDataShouldSucceed ==================
+
+2025-06-30 10:17:43 [main] INFO  com.otakmager.utils.DriverFactory - Terminated app: com.otakmager.traffic_records
+2025-06-30 10:17:44 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver quit successfully
+2025-06-30 10:18:21 [main] INFO  com.otakmager.utils.DriverFactory - Starting AndroidDriver initialization with useApkFile: false
+2025-06-30 10:18:21 [main] INFO  com.otakmager.utils.ConfigReader - Loaded config.properties successfully
+2025-06-30 10:18:21 [main] INFO  com.otakmager.utils.DriverFactory - Using App Package: com.otakmager.traffic_records, App Activity: com.otakmager.traffic_records.MainActivity
+2025-06-30 10:18:30 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver initialized successfully
+2025-06-30 10:18:30 [main] INFO  com.otakmager.base.BaseTest - 
+
+================== START TEST: ViewDetailDataFlowTest.viewDetailDataShouldSucceed ==================
+
+2025-06-30 10:18:30 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu Riwayat
+2025-06-30 10:18:31 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Menu Riwayat
+2025-06-30 10:18:31 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Item Data
+2025-06-30 10:18:32 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Item Data
+2025-06-30 10:18:32 [main] INFO  com.otakmager.keywords.ActionKeyword - Retrieved text 'Detail' from element: App Bar Title
+2025-06-30 10:18:32 [main] INFO  com.otakmager.keywords.ValidationKeyword - Validation passed: expected 'Detail' and found 'Detail'
+2025-06-30 10:18:32 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: App Bar Back Button
+2025-06-30 10:18:32 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Summary Result
+2025-06-30 10:18:32 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Additional Info
+2025-06-30 10:18:32 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Summary Record
+2025-06-30 10:18:33 [main] INFO  com.otakmager.keywords.ActionKeyword - Swiped finger 'up' on element 'Summary Record' (100%) → content scroll down (finger swipe up)
+2025-06-30 10:18:34 [main] ERROR com.otakmager.keywords.ValidationKeyword - Element NOT FOUND: Total Vehicles
+2025-06-30 10:18:34 [main] INFO  com.otakmager.utils.RetryAnalyzer - Retrying test viewDetailDataShouldSucceed with status FAILURE for the 1 time(s).
+2025-06-30 10:18:34 [main] WARN  com.otakmager.base.BaseTest - TEST RESULT: com.otakmager.testCases.flow.ViewDetailDataFlowTest.viewDetailDataShouldSucceed SKIPPED
+2025-06-30 10:18:34 [main] INFO  com.otakmager.base.BaseTest - 
+================== END TEST: com.otakmager.testCases.flow.ViewDetailDataFlowTest.viewDetailDataShouldSucceed ==================
+
+2025-06-30 10:18:35 [main] INFO  com.otakmager.utils.DriverFactory - Terminated app: com.otakmager.traffic_records
+2025-06-30 10:18:35 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver quit successfully
+2025-06-30 10:18:35 [main] INFO  com.otakmager.utils.DriverFactory - Starting AndroidDriver initialization with useApkFile: false
+2025-06-30 10:18:35 [main] INFO  com.otakmager.utils.DriverFactory - Using App Package: com.otakmager.traffic_records, App Activity: com.otakmager.traffic_records.MainActivity
+2025-06-30 10:18:41 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver initialized successfully
+2025-06-30 10:18:41 [main] INFO  com.otakmager.base.BaseTest - 
+
+================== START TEST: ViewDetailDataFlowTest.viewDetailDataShouldSucceed ==================
+
+2025-06-30 10:18:42 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu Riwayat
+2025-06-30 10:18:43 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Menu Riwayat
+2025-06-30 10:18:43 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Item Data
+2025-06-30 10:18:44 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Item Data
+2025-06-30 10:18:45 [main] INFO  com.otakmager.keywords.ActionKeyword - Retrieved text 'Detail' from element: App Bar Title
+2025-06-30 10:18:45 [main] INFO  com.otakmager.keywords.ValidationKeyword - Validation passed: expected 'Detail' and found 'Detail'
+2025-06-30 10:18:45 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: App Bar Back Button
+2025-06-30 10:18:45 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Summary Result
+2025-06-30 10:18:45 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Additional Info
+2025-06-30 10:18:45 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Summary Record
+2025-06-30 10:18:46 [main] INFO  com.otakmager.keywords.ActionKeyword - Swiped finger 'up' on element 'Summary Record' (100%) → content scroll down (finger swipe up)
+2025-06-30 10:18:46 [main] ERROR com.otakmager.keywords.ValidationKeyword - Element NOT FOUND: Total Vehicles
+2025-06-30 10:18:46 [main] INFO  com.otakmager.utils.RetryAnalyzer - Retrying test viewDetailDataShouldSucceed with status FAILURE for the 2 time(s).
+2025-06-30 10:18:47 [main] INFO  com.otakmager.utils.SuiteListener - Screenshot captured for failed test: viewDetailDataShouldSucceed
+2025-06-30 10:18:47 [main] INFO  com.otakmager.utils.SuiteListener - Screenshot saved at: E:\Project\QA_quality_assurance\appium-project\AppiumHitorMobileTest\screenshots\viewDetailDataShouldSucceed
+2025-06-30 10:18:47 [main] ERROR com.otakmager.base.BaseTest - TEST RESULT: com.otakmager.testCases.flow.ViewDetailDataFlowTest.viewDetailDataShouldSucceed FAILED
+2025-06-30 10:18:47 [main] INFO  com.otakmager.base.BaseTest - 
+================== END TEST: com.otakmager.testCases.flow.ViewDetailDataFlowTest.viewDetailDataShouldSucceed ==================
+
+2025-06-30 10:18:48 [main] INFO  com.otakmager.utils.DriverFactory - Terminated app: com.otakmager.traffic_records
+2025-06-30 10:18:49 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver quit successfully
+2025-06-30 10:19:37 [main] INFO  com.otakmager.utils.DriverFactory - Starting AndroidDriver initialization with useApkFile: false
+2025-06-30 10:19:37 [main] INFO  com.otakmager.utils.ConfigReader - Loaded config.properties successfully
+2025-06-30 10:19:37 [main] INFO  com.otakmager.utils.DriverFactory - Using App Package: com.otakmager.traffic_records, App Activity: com.otakmager.traffic_records.MainActivity
+2025-06-30 10:19:44 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver initialized successfully
+2025-06-30 10:19:44 [main] INFO  com.otakmager.base.BaseTest - 
+
+================== START TEST: ViewDetailDataFlowTest.viewDetailDataShouldSucceed ==================
+
+2025-06-30 10:19:45 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Menu Riwayat
+2025-06-30 10:19:45 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Menu Riwayat
+2025-06-30 10:19:46 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Item Data
+2025-06-30 10:19:46 [main] INFO  com.otakmager.keywords.ActionKeyword - Clicked on element: Item Data
+2025-06-30 10:19:46 [main] INFO  com.otakmager.keywords.ActionKeyword - Retrieved text 'Detail' from element: App Bar Title
+2025-06-30 10:19:46 [main] INFO  com.otakmager.keywords.ValidationKeyword - Validation passed: expected 'Detail' and found 'Detail'
+2025-06-30 10:19:47 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: App Bar Back Button
+2025-06-30 10:19:47 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Summary Result
+2025-06-30 10:19:47 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Additional Info
+2025-06-30 10:19:47 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Summary Record
+2025-06-30 10:19:47 [main] INFO  com.otakmager.keywords.ActionKeyword - Swiped finger 'up' on element 'Additional Info' (100%) → content scroll down (finger swipe up)
+2025-06-30 10:19:48 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Total Vehicles
+2025-06-30 10:19:48 [main] INFO  com.otakmager.keywords.ActionKeyword - Swiped finger 'up' on element 'Total Vehicles' (30%) → content scroll down (finger swipe up)
+2025-06-30 10:19:49 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Button Edit
+2025-06-30 10:19:49 [main] INFO  com.otakmager.keywords.ValidationKeyword - Element visible: Button Delete
+2025-06-30 10:19:49 [main] INFO  com.otakmager.base.BaseTest - TEST RESULT: com.otakmager.testCases.flow.ViewDetailDataFlowTest.viewDetailDataShouldSucceed PASSED
+2025-06-30 10:19:49 [main] INFO  com.otakmager.base.BaseTest - 
+================== END TEST: com.otakmager.testCases.flow.ViewDetailDataFlowTest.viewDetailDataShouldSucceed ==================
+
+2025-06-30 10:19:50 [main] INFO  com.otakmager.utils.DriverFactory - Terminated app: com.otakmager.traffic_records
+2025-06-30 10:19:50 [main] INFO  com.otakmager.utils.DriverFactory - AndroidDriver quit successfully

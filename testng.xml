@@ -20,7 +20,8 @@
     <test verbose="1" name="flowTest">
         <parameter name="useApkFile" value="false"/>
         <classes>
-            <class name="com.otakmager.testCases.flow.CreateDataFlowTest"/>
+<!--            <class name="com.otakmager.testCases.flow.CreateDataFlowTest"/>-->
+            <class name="com.otakmager.testCases.flow.ViewDetailDataFlowTest"/>
         </classes>
     </test>
 </suite>

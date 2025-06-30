@@ -20,20 +20,14 @@ public class DetailEvents {
 
     public void verifyDetailContentVisible() {
         validation.assertElementVisible(DetailObject.summaryResult);
-
-        action.swipeUntilVisible(DetailObject.summaryResult, DetailObject.additionalInfo, false, 1);
         validation.assertElementVisible(DetailObject.additionalInfo);
-
-        action.swipeUntilVisible(DetailObject.additionalInfo, DetailObject.summaryRecord, false, 1);
         validation.assertElementVisible(DetailObject.summaryRecord);
 
-        action.swipeUntilVisible(DetailObject.summaryRecord, DetailObject.totalVehicles, false, 5);
+        action.swipe(DetailObject.additionalInfo, false, 1.0);
         validation.assertElementVisible(DetailObject.totalVehicles);
 
-        action.swipeUntilVisible(DetailObject.totalVehicles, DetailObject.buttonEdit, false, 2);
+        action.swipe(DetailObject.totalVehicles, false, 0.3);
         validation.assertElementVisible(DetailObject.buttonEdit);
-
-        action.swipeUntilVisible(DetailObject.buttonEdit, DetailObject.buttonDelete, false, 2);
         validation.assertElementVisible(DetailObject.buttonDelete);
     }
 }

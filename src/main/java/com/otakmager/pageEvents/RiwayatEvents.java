@@ -23,4 +23,12 @@ public class RiwayatEvents {
         String actualTitle = action.getText(RiwayatObject.noDataText);
         validation.assertTextEquals(actualTitle, expectedTitle);
     }
+
+    public void verifyDataVisible() {
+        validation.assertElementVisible(RiwayatObject.itemData);
+    }
+
+    public void clickData() {
+        action.click(RiwayatObject.itemData);
+    }
 }
